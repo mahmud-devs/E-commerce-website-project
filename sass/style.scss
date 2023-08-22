@@ -1,15 +1,24 @@
+@import "./common";
+
+
+
+
 $green: #59B210 ;
 $blue: #3498db ;
 $red: #e74c3c;
 $orange: #F27A24;
 $navy: #34495E;
-$darrkgreen: #21b68e;
+$darkgreen: #21b68e;
 $navtext: #5D5D5D;
 $black: #3D3D3D;
 $textblue: #0E53A5;
 $bordergray: #e0e0e0;
 $gray: #F9F9F9;
 $white : #fff;
+$darkgray: #dddada;
+$perablack: #444 ;
+
+
 
 /* =========== common css ======= */
 *{
@@ -38,6 +47,63 @@ p {
 a{
     text-decoration: none;
 }
+
+
+// --------dropdown-------------
+.dropdown_main{
+    &:hover .dropdown{
+        opacity: 1;
+        visibility: visible;
+        top: 25px;
+    }
+}
+
+.dropdown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    padding: 10px 3px !important;
+    border-top: 1px solid $green;
+    top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    left: 0px;
+    transition: all linear 0.2s;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border: 1px solid rgba(0,0,0,.15);
+    li{
+        transition: all linear 0.2s;
+        padding: 7px 15px;
+        text-transform: capitalize;
+        display: block;
+        text-align: left;
+        &::after{
+            content: "";
+            width: 0 !important;
+            height: 0 !important;
+        }
+        &:hover{
+            background-color: $darkgray;
+        }
+        a{
+            display: block;
+        }
+    }
+}
+
+
+
+
+
+
+// --------dropdown-------------
+
+
+
+
+
+
 
 // ---------------nav------------------
 #nav{
@@ -86,7 +152,7 @@ a{
                             position: absolute;
                             display: flex;
                             flex-direction: column;
-                            background-color: $gray;
+                            background-color: $white;
                             padding: 10px 3px !important;
                             border-top: 1px solid $green;
                             top: 0px;
@@ -94,6 +160,8 @@ a{
                             opacity: 0;
                             left: 0px;
                             transition: all linear 0.2s;
+                            box-shadow: 0 6px 12px rgba(0,0,0,.175);
+                            border: 1px solid rgba(0,0,0,.15);
                             li{
                                 transition: all linear 0.2s;
                                 padding: 7px 15px;
@@ -106,7 +174,7 @@ a{
                                     height: 0;
                                 }
                                 &:hover{
-                                    background-color: $white;
+                                    background-color: $darkgray;
                                 }
                                 a{
                                     display: block;
@@ -123,8 +191,7 @@ a{
                     font-size: 13px;
                     li{
                         position: relative;
-                        color: $navtext ;
-                        transition: all linear 0.3s;
+                        color: $navtext ;                        
                         text-transform: capitalize;
                         &::after{
                             content: "";
@@ -136,12 +203,14 @@ a{
                             background-color: $bordergray;
 
                         }
-                        &:hover{
-                            color: $green;
-                            cursor: pointer;
-                        }
+                        
                         a{
                             color: $navtext ;
+                            transition: all linear 0.3s;
+                            &:hover{
+                                color: $green;
+                                cursor: pointer;
+                            }
                         }
                     }
                 }
@@ -151,7 +220,140 @@ a{
 }
 
 
+// ---------------header----------------
 
+#header{
+	padding: 40px 0 31px 0;
+	border-bottom: 1px solid #e0e0e0;
+    .container{
+        .row{
+            align-items: center;
+            .logo{
+                img{
+                    width: 100%;
+                }
+            }
+            .search{
+                .header__search_wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .header__info{
+                        padding: 0 0 10px 10px;
+                        display: flex;
+                        column-gap: 20px;
+                        a{
+                            font-size: 14px;
+                            color: $navtext;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            i{
+                                font-size: 20px;
+                                color: $green;
+                                margin-right: 7px;
+                            }
+                        }
+                    }
+                    .header__search{
+                        width: 100%;
+                        display: flex;
+                        
+                        border-radius: 5px 0 0 5px;
+                        input{                            
+                            border-radius: 5px 0 0 5px;
+                            border: none;
+                            width: 65%;
+                            padding: 13px;
+                            outline: none;
+                            border-right: 1px solid $darkgray;
+                            border-top: 3px solid $darkgray;
+                            border-bottom: 3px solid $darkgray;
+                            border-left: 3px solid $darkgray;
+                        }
+                        div{
+                            display: flex;
+                            align-items: center;
+                            border-top: 3px solid $darkgray;
+                            border-bottom: 3px solid $darkgray;
+                            ul{
+                                display: inline-block;
+                                
+                                li{
+                                    a{
+                                        font-size: 14px;
+                                        color: $navtext;
+                                        text-transform: capitalize;
+                                        padding:0 20px 0 10px ;
+                                    }
+                                    .dropdown{
+                                        top: 155px;
+                                        left: 830px;
+                                    }
+                                }
+                            }
+                        }
+                        .btn{
+                            background-color: $green;
+                            border: 5px solid $green;
+                            border-radius: 0 5px 5px 0;
+                            color: $white;
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+            .list{
+                display: flex;
+                flex-direction: column;
+                row-gap: 5px;
+                margin-top: 20px;
+                a{
+                    font-size: 12px;
+                    color: $navtext;
+                }
+            }
+            .cart{
+                display: flex;
+                column-gap: 10px;
+                margin-top: 20px;
+                .cart__icon{
+                    position: relative;
+                    font-size: 40px;
+                    display: inline-block;
+                    .popup{
+                        position: absolute;
+                        color: #fff;
+                        top: 10px;
+                        right: 8px;
+                        border-radius: 100px;
+                        width: 21px;
+                        height: 21px;
+                        line-height: 21px;
+                        font-size: 12px;
+                        font-weight: bold;
+                        text-align: center;
+                        background-color: $green;
+                    }
+                }
+                .cart__price{
+                    a{
+                        font-size: 16px;
+                        color: $navtext;
+                        text-transform: capitalize;
+                        span{
+                            font-size: 25px;
+                            font-weight: 600;
+                            color: $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
 
 
 
