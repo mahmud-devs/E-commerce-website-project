@@ -1,0 +1,180 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darrkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+
+/* =========== common css ======= */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+}
+
+// ---------------nav------------------
+#nav{
+    padding: 10px 0;
+    border-bottom: 1px solid $bordergray;
+    background-color: $gray;
+    .container{
+        .nav__wrapper{
+            display: flex;
+            justify-content: space-between;
+            .nav__wrapper_content_1{
+                ul{
+                    display: flex;
+                    column-gap: 40px;
+                    font-size: 13px;
+                    .dropdown_main{
+                        &:hover .dropdown{
+                            opacity: 1;
+                            visibility: visible;
+                            top: 25px;
+                        }
+                    }
+                    li{
+                        position: relative;
+                        color: $navtext ;
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            right: -20px;
+                            top: 0;
+                            width: 1px;
+                            height: 100%;
+                            background-color: $bordergray;
+
+                        }                        
+                        a{
+                            color: $navtext ;
+                            transition: all linear 0.3s;
+                            text-transform: capitalize;
+                            &:hover{
+                                color: $green;
+                                cursor: pointer;
+                            }
+                        }
+                        .dropdown{
+                            position: absolute;
+                            display: flex;
+                            flex-direction: column;
+                            background-color: $gray;
+                            padding: 10px 3px !important;
+                            border-top: 1px solid $green;
+                            top: 0px;
+                            visibility: hidden;
+                            opacity: 0;
+                            left: 0px;
+                            transition: all linear 0.2s;
+                            li{
+                                transition: all linear 0.2s;
+                                padding: 7px 15px;
+                                text-transform: capitalize;
+                                display: block;
+                                text-align: left;
+                                &::after{
+                                    content: "";
+                                    width: 0;
+                                    height: 0;
+                                }
+                                &:hover{
+                                    background-color: $white;
+                                }
+                                a{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .nav__wrapper_content_2{
+                ul{
+                    display: flex;
+                    column-gap: 40px;
+                    font-size: 13px;
+                    li{
+                        position: relative;
+                        color: $navtext ;
+                        transition: all linear 0.3s;
+                        text-transform: capitalize;
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            right: -20px;
+                            top: 0;
+                            width: 1px;
+                            height: 100%;
+                            background-color: $bordergray;
+
+                        }
+                        &:hover{
+                            color: $green;
+                            cursor: pointer;
+                        }
+                        a{
+                            color: $navtext ;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
