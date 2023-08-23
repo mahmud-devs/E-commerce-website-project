@@ -617,6 +617,24 @@ a {
 #banner .tab-content .row .sale .sale__item:hover .sale__order {
   visibility: visible;
 }
+#banner .tab-content .row .sale .sale__item .sale__tag {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 4px 30px 4px 20px;
+  border-top: 25px solid #e74c3c;
+  border-right: 15px solid transparent;
+  border-left: 0px;
+}
+#banner .tab-content .row .sale .sale__item .sale__tag span {
+  position: absolute;
+  left: 12px;
+  top: -21px;
+}
 #banner .tab-content .row .sale .sale__item img {
   width: 100%;
 }
@@ -689,4 +707,33 @@ a {
   color: #5D5D5D;
   display: inline-block;
   margin-right: 20px;
+}
+#banner .more__products {
+  display: flex;
+  justify-content: center;
+}
+#banner .more__products .products {
+  display: inline-block;
+}
+#banner .more__products .products a {
+  color: #5D5D5D;
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  transition: all linear 0.3s;
+}
+#banner .more__products .products a:hover {
+  color: #59B210;
+}
+#banner .more__products .products a:hover span {
+  background-color: #59B210;
+  color: #fff;
+}
+#banner .more__products .products a span {
+  padding: 2px 5px;
+  background-color: #dddada;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: all linear 0.3s;
 }/*# sourceMappingURL=style.css.map */

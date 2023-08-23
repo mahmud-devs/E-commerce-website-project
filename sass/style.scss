@@ -708,6 +708,25 @@ a{
                             visibility: visible;
                         }
                     }
+                    .sale__tag{
+                        position: absolute;
+                        top: 30px;
+                        left: 0;
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: $white;
+                        padding: 4px 30px 4px 20px;
+                        border-top: 25px solid $red;
+                        border-right: 15px solid transparent;
+                        border-left: 0px;
+                        span{
+                            position: absolute;
+                            left: 12px;
+                            top: -21px;
+
+                        }
+                    }
                     img{
                         width: 100%;
                         
@@ -786,6 +805,35 @@ a{
                         }
                     }
                 }                
+            }
+        }
+    }
+    .more__products{
+        display: flex;
+        justify-content: center;
+        .products{
+            display: inline-block;
+            a{
+                color: $navtext;
+                display: flex;
+                text-transform: capitalize;
+                align-items: center;
+                transition: all linear 0.3s;
+                &:hover{
+                    color: $green;
+                    span{
+                        background-color: $green;
+                        color: $white;
+                    }
+                }
+                span{
+                    padding: 2px 5px;
+                    background-color: $darkgray;
+                    font-size: 12px;
+                    border-radius: 4px;margin-right: 10px;
+                    transition: all linear 0.3s;
+
+                }
             }
         }
     }
