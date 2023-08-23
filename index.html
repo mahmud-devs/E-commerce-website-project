@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- --------slick slider css---------- -->
     <link rel="stylesheet" href="css/slick.css">
+    <!-- ------------fade up css----------------- -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- -------------bootstrap css---------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- --------main css---------------- -->
@@ -243,16 +245,17 @@
             </div>
             <!-- ----------banner mobile & watch------------ -->
             <!-- -------------navs & tabs----------------- -->
-            <nav>
+            <nav data-aos="fade-up" data-aos-delay="100">
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                   <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
                   <button class="nav-link"  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
                   <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
                 </div>
             </nav>
-            <div class="tab-content" id="nav-tabContent">
+            <!-- -------------sale content------------ -->
+            <div class="tab-content" id="nav-tabContent" data-aos="fade-up" data-aos-delay="200">
+                <!-- ---------1st content-------------- -->
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-
                     <div class="row">
                         <div class="col-lg-3 sale">
                             <div class="sale__item">
@@ -266,23 +269,285 @@
                                     <h2>$1399.00</h2>
                                     <h3>$1199.00</h3>
                                 </div>
-                                <div class="sale__order"></div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
                             </div>                            
                         </div>
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-3"></div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-02.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>White lumia 9001</h4>
+                                    <h5>nokia</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-03.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>POV Action Cam</h4>
+                                    <h5>sony</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-04.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>Netbook Acer TravelMate B113-E-10072</h4>
+                                    <h5>acer</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
                     </div>
-
                 </div>
-
-
-
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-
-
-
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+                <!-- ---------1st content-------------- -->
+                <!-- ---------2nd content-------------- -->
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="row">                        
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-02.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>White lumia 9001</h4>
+                                    <h5>nokia</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-01.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>VAIO Fit Laptop - Windows 8 SVF14322CXW</h4>
+                                    <h5>sony</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>                        
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-04.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>Netbook Acer TravelMate B113-E-10072</h4>
+                                    <h5>acer</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-03.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>POV Action Cam</h4>
+                                    <h5>sony</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------2nd content-------------- -->
+                <!-- ---------3rd content-------------- -->
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="row">                                                
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-04.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>Netbook Acer TravelMate B113-E-10072</h4>
+                                    <h5>acer</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-03.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>POV Action Cam</h4>
+                                    <h5>sony</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-02.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>White lumia 9001</h4>
+                                    <h5>nokia</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 sale">
+                            <div class="sale__item">
+                                <img src="images/product-01.jpg" alt="img">
+                                <div class="sale__detail">
+                                    <h6>-50% sale</h6>
+                                    <h4>VAIO Fit Laptop - Windows 8 SVF14322CXW</h4>
+                                    <h5>sony</h5>
+                                </div>
+                                <div class="sale__price">
+                                    <h2>$1399.00</h2>
+                                    <h3>$1199.00</h3>
+                                </div>
+                                <div class="sale__order">
+                                    <div>
+                                        <a href="#" class="common__btn">add to cart</a>
+                                    </div>                                    
+                                    <div class="price__compare">
+                                        <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
+                                        <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------3rd content-------------- -->
             </div>
               
 
@@ -367,6 +632,11 @@
     <script src="https://kit.fontawesome.com/eccb807151.js" crossorigin="anonymous"></script>
     <!-- --------------slick slider js---------------- -->
     <script src="js/slick.min.js"></script>
+    <!-- ----------fadeup js----------- -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({duration: 800,});
+    </script>
     <!-- -------------bootstrap js---------- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- ----------main js--------------- -->

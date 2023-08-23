@@ -94,16 +94,30 @@ a{
     }
 }
 
-
-
-
-
-
 // --------dropdown-------------
 
 
+.common__btn{
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: $green;
+    color: $white;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+    &:hover{
+        opacity: 0.7;
+    }
+}
 
 
+
+
+
+
+
+// -----------common css--------
 
 
 
@@ -740,12 +754,36 @@ a{
                     }
                     .sale__order{
                         position: absolute;
-                        bottom: -25px;
+                        bottom: -97px;
                         width: 100%;
                         left: 0;
-                        height: 50px;
-                        background-color: #0E53A5;
+                        padding-bottom: 30px;
+                        background-color: transparent;
+                        border-left: 1px solid $darkgray;
+                        border-right: 1px solid $darkgray;
+                        border-bottom: 1px solid $darkgray;
                         visibility: hidden;
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                        flex-direction: column;
+                        div{
+                            display: flex;
+                            justify-content: center;
+                            a{
+                                display: inline-block;
+                                transition: 0s;
+                            }
+                        }
+                        .price__compare{
+                            a{
+                                font-size: 12px;
+                                color: $navtext;
+                                display: inline-block;
+                                margin-right: 20px;
+                                
+                            }
+                        }
                     }
                 }                
             }

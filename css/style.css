@@ -68,6 +68,20 @@ a {
   display: block;
 }
 
+.common__btn {
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #59B210;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+}
+.common__btn:hover {
+  opacity: 0.7;
+}
+
 #nav {
   padding: 10px 0;
   border-bottom: 1px solid #e0e0e0;
@@ -648,10 +662,31 @@ a {
 }
 #banner .tab-content .row .sale .sale__item .sale__order {
   position: absolute;
-  bottom: -25px;
+  bottom: -97px;
   width: 100%;
   left: 0;
-  height: 50px;
-  background-color: #0E53A5;
+  padding-bottom: 30px;
+  background-color: transparent;
+  border-left: 1px solid #dddada;
+  border-right: 1px solid #dddada;
+  border-bottom: 1px solid #dddada;
   visibility: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+#banner .tab-content .row .sale .sale__item .sale__order div {
+  display: flex;
+  justify-content: center;
+}
+#banner .tab-content .row .sale .sale__item .sale__order div a {
+  display: inline-block;
+  transition: 0s;
+}
+#banner .tab-content .row .sale .sale__item .sale__order .price__compare a {
+  font-size: 12px;
+  color: #5D5D5D;
+  display: inline-block;
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
