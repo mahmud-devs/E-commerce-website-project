@@ -17,6 +17,7 @@ $gray: #F9F9F9;
 $white : #fff;
 $darkgray: #dddada;
 $perablack: #444 ;
+$bluegray: #4F6276;
 
 
 
@@ -361,7 +362,9 @@ a{
 
 #banner{
     padding: 30px 0;
+    // ---------banner menu $ slider---------
     .row{
+        margin-bottom: 30px;
         .banner__menu{
             text-transform: capitalize;
             font-weight: 600;
@@ -419,7 +422,7 @@ a{
                     .slick-dots{
                         opacity: 99;
                         visibility: visible;
-                        bottom: -22px;
+                        bottom: -20px;
                     }
                 }
                 .slider__content_1{
@@ -531,11 +534,11 @@ a{
                     align-items: center;
                     justify-content: center;
                     gap: 10px;
-                    width: 80px;
+                    width: 70px;
                     background-color: $white;
-                    height: 50px;
+                    height: 40px;
                     position: absolute;
-                    bottom:-35px;
+                    bottom:-30px;
                     left: 50%;
                     transform: translateX(-50%);
                     border-radius: 5px;
@@ -566,6 +569,91 @@ a{
             }
         }
     }
+    // -------banner mobile & watch-------
+    .row{
+
+        .mobile{
+            .banner__mobile{
+                width: 100%;
+                position: relative;
+                padding: 50px 30px 50px 30px;
+                text-transform: capitalize;
+                display: block;
+                overflow: hidden;
+                &:hover{
+                    img{
+                        opacity: 0.9;
+                        transform: rotate(-1deg) scale(1.1);
+                    }
+                }
+                h2{
+                    font-weight: 800;
+                    color: $bluegray;
+                    font-style: 36px;
+                    z-index: 22;
+                    position: relative;
+                }
+                h4{
+                    font-weight: 100;
+                    font-size: 20px;
+                    line-height: 33px;
+                    z-index: 22;
+                    position: relative;
+                    color: $bluegray;
+                }
+                img{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    transition: all linear 0.2s;
+                }
+            }
+            .banner__watch{
+                width: 100%;
+                position: relative;
+                padding: 50px 30px 50px 30px;
+                text-transform: capitalize;
+                display: block;
+                overflow: hidden;
+                text-align: right;
+                &:hover{
+                    img{
+                        opacity: 0.9;
+                        transform: rotate(-1deg) scale(1.1);
+                    }
+                }
+                h2{
+                    font-weight: 800;
+                    color: $bluegray;
+                    font-style: 36px;
+                    z-index: 22;
+                    position: relative;
+                }
+                h4{
+                    font-weight: 100;
+                    font-size: 20px;
+                    line-height: 33px;
+                    z-index: 22;
+                    position: relative;
+                    color: $bluegray;
+                }
+                img{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    transition: all linear 0.2s;
+                }
+            }
+        }
+
+    }
+
 }
 
 
