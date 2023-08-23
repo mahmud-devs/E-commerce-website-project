@@ -294,7 +294,7 @@ a {
 }
 
 #banner {
-  padding: 30px 0;
+  padding: 30px 0 700px 0;
 }
 #banner .row {
   margin-bottom: 30px;
@@ -542,7 +542,7 @@ a {
 }
 #banner .row .mobile .banner__watch:hover img {
   opacity: 0.9;
-  transform: rotate(-1deg) scale(1.1);
+  transform: rotate(1deg) scale(1.1);
 }
 #banner .row .mobile .banner__watch h2 {
   font-weight: 800;
@@ -567,4 +567,91 @@ a {
   width: 100%;
   height: 100%;
   transition: all linear 0.2s;
+}
+#banner nav {
+  margin-top: 80px;
+}
+#banner nav #nav-tab {
+  gap: 30px;
+  overflow-x: hidden;
+}
+#banner nav #nav-tab .nav-link {
+  background-color: #F9F9F9;
+  padding: 10px 40px;
+  font-size: 20px;
+  color: #5D5D5D;
+  transition: 0.3s;
+  border-radius: 5px 5px 0 0;
+}
+#banner nav #nav-tab .nav-link.active {
+  background-color: #59B210;
+  color: #fff;
+  position: relative;
+  z-index: 11;
+  border-radius: 5px 5px 0 0;
+}
+#banner .tab-content .row .sale {
+  position: relative;
+  z-index: 22;
+}
+#banner .tab-content .row .sale .sale__item {
+  padding: 10px 10px 40px 10px;
+  border: 1px solid #dddada;
+  background-color: #fff;
+  position: relative;
+}
+#banner .tab-content .row .sale .sale__item:hover .sale__order {
+  visibility: visible;
+}
+#banner .tab-content .row .sale .sale__item img {
+  width: 100%;
+}
+#banner .tab-content .row .sale .sale__item .sale__detail {
+  padding: 0 15px;
+  height: 130px;
+  border-bottom: 1px solid #dddada;
+}
+#banner .tab-content .row .sale .sale__item .sale__detail h6 {
+  display: inline-block;
+  padding: 0 8px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  background-color: #59B210;
+}
+#banner .tab-content .row .sale .sale__item .sale__detail h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #0E53A5;
+}
+#banner .tab-content .row .sale .sale__item .sale__detail h5 {
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+#banner .tab-content .row .sale .sale__item .sale__price {
+  display: flex;
+  padding: 20px 15px 0 15px;
+  justify-content: space-between;
+}
+#banner .tab-content .row .sale .sale__item .sale__price h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #777;
+}
+#banner .tab-content .row .sale .sale__item .sale__price h3 {
+  font-size: 17px;
+  color: #5D5D5D;
+  display: inline-block;
+  font-weight: 700;
+}
+#banner .tab-content .row .sale .sale__item .sale__order {
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  left: 0;
+  height: 50px;
+  background-color: #0E53A5;
+  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */

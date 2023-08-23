@@ -16,7 +16,7 @@ $bordergray: #e0e0e0;
 $gray: #F9F9F9;
 $white : #fff;
 $darkgray: #dddada;
-$perablack: #444 ;
+$perablack: #777 ;
 $bluegray: #4F6276;
 
 
@@ -361,7 +361,7 @@ a{
 // -----------banner------------------
 
 #banner{
-    padding: 30px 0;
+    padding: 30px 0 700px 0;
     // ---------banner menu $ slider---------
     .row{
         margin-bottom: 30px;
@@ -622,7 +622,7 @@ a{
                 &:hover{
                     img{
                         opacity: 0.9;
-                        transform: rotate(-1deg) scale(1.1);
+                        transform: rotate(1deg) scale(1.1);
                     }
                 }
                 h2{
@@ -653,6 +653,110 @@ a{
         }
 
     }
+    // ----------navs & tabs-----------
+    nav{
+        margin-top: 80px;
+        #nav-tab{
+            gap: 30px;
+            overflow-x: hidden ;
+            .nav-link{
+                background-color: $gray;
+                padding: 10px 40px;
+                font-size: 20px;
+                color: $navtext;
+                transition: 0.3s;
+                border-radius: 5px 5px 0 0;
+            }
+            .nav-link.active{
+                background-color: $green;
+                color: $white;
+                position: relative;
+                z-index: 11;
+                border-radius: 5px 5px 0 0;
+            }
+            
+        }
+        
+    }
+
+    .tab-content{
+        .row{
+            .sale{
+                position: relative;
+                z-index: 22;
+                .sale__item{
+                    padding: 10px 10px 40px 10px;
+                    border: 1px solid $darkgray;
+                    background-color: $white;
+                    position: relative;
+                    &:hover{
+                        .sale__order{
+                            visibility: visible;
+                        }
+                    }
+                    img{
+                        width: 100%;
+                        
+                    }
+                    .sale__detail{
+                        padding: 0 15px;
+                        height: 130px;
+                        border-bottom: 1px solid $darkgray;
+                        h6{
+                            display: inline-block;
+                            padding: 0 8px;
+                            font-weight: 600;
+                            font-size: 11px;
+                            line-height: 16px;
+                            background-color: $green;
+                        }
+                        h4{
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 19px;
+                            color: $textblue;
+                        }
+                        h5{
+                            font-size: 10px;
+                            text-transform: uppercase;
+                            line-height: 30px;
+                        }
+                    }
+                    .sale__price{
+                        display: flex;
+                        padding: 20px 15px 0 15px;
+                        justify-content: space-between;
+                        h2{
+                            display: inline-block;
+                            font-size: 14px;
+                            color: $perablack;
+                        }
+                        h3{
+                            font-size: 17px;
+                            color: $navtext;
+                            display: inline-block;
+                            font-weight: 700;
+                        }
+                    }
+                    .sale__order{
+                        position: absolute;
+                        bottom: -25px;
+                        width: 100%;
+                        left: 0;
+                        height: 50px;
+                        background-color: #0E53A5;
+                        visibility: hidden;
+                    }
+                }                
+            }
+        }
+    }
+
+
+
+
+
+
 
 }
 
