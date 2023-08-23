@@ -8,14 +8,14 @@ $(function(){
         dots: true,
         arrows: false,
         // centerMode: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         responsive: [
           {
             breakpoint: 768,
             settings: {
               slidesToShow: 1,
-              autoplay: true,
+              autoplay: false,
               autoplaySpeed: 2500,
             }
           }

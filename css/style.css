@@ -39,7 +39,7 @@ a {
   flex-direction: column;
   background-color: #fff;
   padding: 10px 3px !important;
-  border-top: 1px solid #59B210;
+  border-top: 1px solid #59B210 !important;
   top: 0px;
   visibility: hidden;
   opacity: 0;
@@ -477,6 +477,11 @@ a {
   height: 16px;
   border-radius: 50%;
   background: rgba(124, 118, 175, 0.652);
+  transition: all linear 0.2s;
+}
+#banner .row .banner__content .slick__slider .slick-dots li:hover {
+  cursor: pointer;
+  background-color: #59B210;
 }
 #banner .row .banner__content .slick__slider .slick-dots li button {
   display: none;
