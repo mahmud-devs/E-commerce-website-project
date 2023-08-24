@@ -66,6 +66,30 @@ $(function(){
           }
         ]
     });
+
+
+    // =======brand slider--------
+
+    $('.brand__slider').slick({
+        infinite: false,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        // centerMode: true,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              autoplay: false,
+              autoplaySpeed: 2500,
+            }
+          }
+        ]
+    });
     
 
 
