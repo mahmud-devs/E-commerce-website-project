@@ -78,7 +78,7 @@ $(function(){
         arrows: true,
         // centerMode: true,
         autoplay: false,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 500,
         responsive: [
           {
             breakpoint: 768,
