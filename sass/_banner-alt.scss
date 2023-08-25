@@ -1,0 +1,236 @@
+$green: #59B210 ;
+$ggreen: #4d9b0e;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+
+#banner_alt .banner_alt__menu .container ul li:nth-child(4) .banner_alt__content {
+	position: absolute;
+	top: 40px;
+	left: -80%;
+	width: 800px;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 1px solid #e0e0e0;
+	border-top: 1px solid #59B210;
+	box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.3019607843);
+	z-index: 999999999;
+	padding-bottom: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all linear 0.2s;
+}
+
+
+#banner_alt .banner_alt__menu .container ul li:nth-child(5) .banner_alt__content {
+	position: absolute;
+	top: 40px;
+	left: -250%;
+	width: 800px;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 1px solid #e0e0e0;
+	border-top: 1px solid #59B210;
+	box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.3019607843);
+	z-index: 999999999;
+	padding-bottom: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all linear 0.2s;
+}
+
+
+#banner_alt .banner_alt__menu .container ul li:nth-child(6) .banner_alt__content {
+	position: absolute;
+	top: 40px;
+	left: -250%;
+	width: 800px;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 1px solid #e0e0e0;
+	border-top: 1px solid #59B210;
+	box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.3019607843);
+	z-index: 999999999;
+	padding-bottom: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all linear 0.2s;
+}
+
+
+#banner_alt .banner_alt__menu .container ul li:nth-child(7) .banner_alt__content {
+	position: absolute;
+	top: 40px;
+	left: -275%;
+	width: 800px;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 1px solid #e0e0e0;
+	border-top: 1px solid #59B210;
+	box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.3019607843);
+	z-index: 999999999;
+	padding-bottom: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all linear 0.2s;
+}
+
+
+#banner_alt .banner_alt__menu .container ul li:nth-child(8) .banner_alt__content {
+	position: absolute;
+	top: 40px;
+	left: -460%;
+	width: 800px;
+	background-color: #ffffff;
+	padding: 10px 20px;
+	border: 1px solid #e0e0e0;
+	border-top: 1px solid #59B210;
+	box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.3019607843);
+	z-index: 999999999;
+	padding-bottom: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all linear 0.2s;
+}
+
+
+
+
+
+// ----------banner alt-------------
+
+#banner_alt{
+    .banner_alt__menu{
+        background-color: $green;
+        .container{
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                    border-right: 1px solid $perablack;
+                    position: relative;
+                    transition: all linear 0.2s;                    
+                    &:hover{
+                        background-color: $ggreen;
+                        .banner_alt__content{
+                            visibility: visible;
+                            opacity: 99;
+                            top: 67px;
+                        }
+                    }
+                    a{
+                        font-size: 15px;
+                        font-weight: 700;
+                        padding: 18px 27px;
+                        color: $white;
+                        display: block;
+                        text-transform: capitalize;
+                    }
+                    .banner_alt__content{
+                        position: absolute;
+                        top: 40px;
+                        left: 0;
+                        width: 800px;
+                        background-color: #ffffff;
+                        padding: 10px 20px;
+                        border: 1px solid $bordergray;
+                        border-top: 1px solid $green;
+                        box-shadow: 0 0 30px 1px #0000004d;
+                        z-index: 999999999;
+                        padding-bottom: 20px;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: all linear 0.2s;
+                        .row{
+                            .laptop{
+                                h2{
+                                    font-size: 18px;
+                                    line-height: 24px;
+                                    margin: 20px 0;
+                                    font-weight: 700;
+                                    color: $green;
+                                }
+                                ul{
+                                    display: flex;
+                                    flex-direction: column;
+                                    li{
+                                        border: 0;
+                                        padding: 5px;
+                                        transition: all linear 0.2s;
+                                        border-bottom: 1px solid $bordergray;
+                                        &:hover{
+                                            background-color: $gray;
+                                        }
+                                        a{
+                                            font-size: 14px;
+                                            line-height: 26px;
+                                            color: $navtext;
+                                            padding: 0;
+                                            font-weight: 400;
+                                            padding: 3px 0;
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .alt__li{
+                    position: relative;
+                    &:hover{
+                        &::after{
+                            opacity: 11;
+                            top: 60px;
+                        }
+                    }
+                    &::after{
+                        position: absolute;
+                        content: "";
+                        top: 50px;
+                        left: 55px;
+                        border-left: 5px solid transparent;
+                        border-right: 5px solid transparent;
+                        border-bottom: 10px solid $ggreen;
+                        transition: all linear 0.2s;
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

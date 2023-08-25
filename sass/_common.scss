@@ -1,0 +1,125 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+/* =========== common css ======= */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+}
+
+// -----------common css--------
+
+
+
+
+// ---------common btn----------
+
+.common__btn{
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: $green;
+    color: $white;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+    &:hover{
+        opacity: 0.7;
+    }
+}
+// ---------common btn----------
+
+
+
+// --------dropdown-------------
+.dropdown_main{
+    position: relative;
+    &:hover .dropdown{
+        opacity: 1;
+        visibility: visible;
+        top: 22px;
+    }
+}
+
+.dropdown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    padding: 10px 3px !important;
+    border-top: 1px solid $green !important;
+    top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    left: 0px;
+    transition: all linear 0.2s;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border: 1px solid rgba(0,0,0,.15);
+    z-index: 999;
+    li{
+        transition: all linear 0.2s;
+        padding: 7px 15px;
+        text-transform: capitalize;
+        display: block;
+        text-align: left;
+        &::after{
+            content: "";
+            width: 0 !important;
+            height: 0 !important;
+        }
+        &:hover{
+            background-color: $darkgray;
+        }
+        a{
+            display: block;
+        }
+    }
+}
+
+// --------dropdown-------------
+
+
+
+
+
+
+
+
+
+
+
