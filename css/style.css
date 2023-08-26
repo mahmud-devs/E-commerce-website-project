@@ -963,6 +963,67 @@ a {
   margin-bottom: 10px;
 }
 
+#found {
+  padding: 120px 0;
+}
+#found .container .found__main {
+  text-align: center;
+}
+#found .container .found__main h1 {
+  font-size: 200px;
+  font-weight: 700 !important;
+  line-height: 200px;
+  color: #59B210;
+}
+#found .container .found__main p {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+#found .container .found__main .found__search {
+  padding: 40px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#found .container .found__main .found__search input {
+  padding: 18px 18px 18px 35px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 50%;
+}
+#found .container .found__main .found__search .found__btn {
+  padding: 19px 31px 20px 31px;
+  background-color: #59B210;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  text-transform: capitalize;
+  font-weight: 700;
+  transition: all linear 0.2s;
+}
+#found .container .found__main .found__search .found__btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#found .container .found__main div {
+  display: flex;
+  justify-content: center;
+}
+#found .container .found__main div a {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  color: #5D5D5D;
+  transition: all linear 0.2s;
+}
+#found .container .found__main div a:hover {
+  color: #59B210;
+}
+
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
   top: 30px;
