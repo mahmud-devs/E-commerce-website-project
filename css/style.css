@@ -844,6 +844,71 @@ a {
   padding: 80px 0;
 }
 
+#frequent {
+  padding-bottom: 80px;
+}
+#frequent .container .frequent__heading {
+  text-align: center;
+}
+#frequent .container .frequent__heading h2 {
+  font-size: 40px;
+  color: #3D3D3D;
+  line-height: 18px;
+  font-weight: normal !important;
+  margin-bottom: 12px;
+  padding-bottom: 14px;
+  line-height: 40px;
+}
+#frequent .container .frequent__heading p {
+  font-size: 14px;
+  color: #5D5D5D;
+  margin-bottom: 15px;
+  line-height: 15px;
+}
+#frequent .container .frequent__question ul li {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+#frequent .container .frequent__question ul li p .btn-primary {
+  color: #3D3D3D;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 28px;
+  padding: 24px 0;
+  transition: all linear 0.2s;
+  position: relative;
+  padding-right: 20px;
+  outline: none;
+}
+#frequent .container .frequent__question ul li p .btn-primary:focus {
+  box-shadow: none;
+}
+#frequent .container .frequent__question ul li p .btn-primary::after {
+  content: "\f107";
+  font-family: "fontawesome";
+  float: right;
+  font-size: 20px;
+  color: #777;
+  transition: all linear 0.2s;
+}
+#frequent .container .frequent__question ul li p .btn-primary:hover {
+  color: #59B210;
+}
+#frequent .container .frequent__question ul li p .btn-primary:hover::after {
+  color: #59B210;
+}
+#frequent .container .frequent__question ul li .card {
+  border: 0;
+  line-height: 28px;
+  font-size: 17px;
+  color: #5D5D5D;
+  padding: 20px 15px 60px 15px;
+}
+
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
   top: 30px;

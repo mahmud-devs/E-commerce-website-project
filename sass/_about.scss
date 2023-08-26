@@ -241,7 +241,81 @@ $bluegray: #4F6276;
 
 }
 
+// ------------frequent-------------
 
+#frequent{
+    padding-bottom: 80px;
+    .container{
+        .frequent__heading{
+            text-align: center;
+            h2{
+                font-size: 40px;
+                color: $black;
+                line-height: 18px;
+                font-weight: normal !important;
+                margin-bottom: 12px;
+                padding-bottom: 14px;
+                line-height: 40px;
+            }
+            p{
+                font-size: 14px;
+                color: $navtext;
+                margin-bottom: 15px;
+                line-height: 15px;
+            }
+        }
+        .frequent__question{
+            ul{
+                li{ 
+                    border-bottom: 1px solid $bordergray;
+                    margin-bottom: 5px;
+                    padding-left: 15px;
+                    p{
+                        .btn-primary {
+                            color: $black;
+                            text-transform: capitalize;
+                            background-color: transparent;
+                            border: 0;
+                            width: 100%;
+                            text-align: left;
+                            font-size: 28px;
+                            padding: 24px 0;
+                            transition: all linear 0.2s;
+                            position: relative;
+                            padding-right: 20px;
+                            outline: none;
+                            &:focus{
+                                box-shadow: none;
+                            }
+                            &::after{
+                                content: "\f107";
+                                font-family: 'fontawesome';
+                                float: right;
+                                font-size: 20px;
+                                color: $perablack;
+                                transition: all linear 0.2s;
+                            }
+                            &:hover{
+                                color: $green;
+                                &::after{
+                                    color: $green;
+                                }
+                            }
+                        }
+                    }
+                    .card{
+                        border: 0;
+                        line-height: 28px;
+                        font-size: 17px;
+                        color: $navtext;
+                        padding: 20px 15px 60px 15px;
+
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
