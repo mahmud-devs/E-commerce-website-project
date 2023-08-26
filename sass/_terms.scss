@@ -1,0 +1,94 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+// -----------terms-------------
+
+#terms{
+    padding-bottom: 80px;
+    .container{
+        .terms__heading{
+            text-align: center;
+            h4{
+                font-size: 42px;
+                color: $black;
+                line-height: 18px;
+                font-weight: normal !important;
+                margin-bottom: 12px;
+                padding-bottom: 14px;
+                line-height: 40px;
+              
+            }
+            P{
+                font-size: 16px;
+                color: $navtext;
+                margin: 0;
+                line-height: 15px;
+                margin-bottom: 20px;
+            }
+        }
+        .terms__detail{
+            padding: 30px 0 50px 0;
+            h2{
+                color: $black;
+                font-size: 30px;
+                line-height: 36px;
+                font-weight: normal !important;
+                padding-bottom: 14px;
+                margin-bottom: 12px;
+              
+            }
+            ol{
+                list-style-type: nth;
+                margin-left: 55px;
+                li{
+                    margin-bottom: 20px;
+                    color: $navtext;
+                    font-size: 16px;
+                    &::marker{
+                        padding: 10px;
+                        color: $navtext;
+                        font-size: 16px;
+                        
+                    }
+                }
+            }
+            p{
+                color: $navtext;
+                font-size: 16px;
+                line-height: 28px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
