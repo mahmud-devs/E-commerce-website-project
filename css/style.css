@@ -648,6 +648,202 @@ a {
   transition: all linear 0.3s;
 }
 
+#shop-by {
+  padding: 40px 0 80px 0;
+}
+#shop-by .container .shop-by__wrapper {
+  display: flex;
+  background-color: #F9F9F9;
+}
+#shop-by .container .shop-by__wrapper .shop-by__department {
+  position: relative;
+}
+#shop-by .container .shop-by__wrapper .shop-by__department:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  top: 60px;
+}
+#shop-by .container .shop-by__wrapper .shop-by__department ul {
+  left: 5px;
+  width: 98%;
+}
+#shop-by .container .shop-by__wrapper .shop-by__department ul li {
+  border-bottom: 1px solid #e0e0e0;
+}
+#shop-by .container .shop-by__wrapper .shop-by__department ul li a {
+  padding: 0;
+  color: #262626;
+  background-color: inherit;
+  font-size: 14px;
+}
+#shop-by .container .shop-by__wrapper .shop-by__department a {
+  padding: 19px 17px;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+  margin: 0 0 0 5px;
+  color: #fff;
+  background-color: #59B210;
+}
+#shop-by .container .shop-by__wrapper .shop-by__department a:hover {
+  opacity: 0.8;
+}
+#shop-by .container .shop-by__wrapper .shop-by__home a {
+  padding: 19px 17px;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #5D5D5D;
+  transition: all linear 0.2s;
+  position: relative;
+  border-right: 1px solid #e0e0e0;
+}
+#shop-by .container .shop-by__wrapper .shop-by__home a:hover {
+  background-color: #dddada;
+}
+#shop-by .container .shop-by__wrapper .shop-by__home a:hover::after {
+  border-color: transparent transparent transparent #dddada !important;
+}
+#shop-by .container .shop-by__wrapper .shop-by__home a::after {
+  top: 39%;
+  right: -8px;
+  border-width: 7.5px 0 7.5px 10px;
+  border-color: transparent transparent transparent #F9F9F9;
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  transition: 0.2s ease;
+}
+#shop-by .container .shop-by__wrapper .shop-by__home a::before {
+  top: 39%;
+  right: -10px;
+  border-width: 7.5px 0 7.5px 10px;
+  border-color: transparent transparent transparent #e0e0e0;
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  transition: 0.2s ease;
+}
+#shop-by .container .shop-by__wrapper .shop-by__about a {
+  padding: 19px 17px;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #5D5D5D;
+  transition: all linear 0.2s;
+  position: relative;
+}
+#shop-by .container .shop-by__wrapper .shop-by__about a:hover {
+  background-color: #dddada;
+}
+
+#about-us {
+  padding-bottom: 100px;
+}
+#about-us .container .row {
+  align-items: center;
+  margin-bottom: 30px;
+}
+#about-us .container .row .about__detail h4 {
+  color: #3D3D3D;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: normal !important;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+}
+#about-us .container .row .about__detail p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #5D5D5D;
+}
+#about-us .container .row .about__img h2 {
+  text-align: center;
+  padding: 26px 0;
+  background-color: #F9F9F9;
+  font-size: 24px;
+  color: #3D3D3D;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  border-radius: 0 0 5px 5px;
+}
+#about-us .container .row .about__img h2 span {
+  font-size: 18px;
+  color: #5D5D5D;
+}
+
+#we-do {
+  padding: 80px 0;
+  background-color: #F9F9F9;
+}
+#we-do .container .row .we-do__detail h4 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: normal !important;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+  color: #3D3D3D;
+}
+#we-do .container .row .we-do__detail p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #5D5D5D;
+}
+#we-do .container .row .we-do__content {
+  padding-top: 35px;
+  position: relative;
+}
+#we-do .container .row .we-do__content .content__service {
+  background-color: #fff;
+  padding: 55px 35px 30px 35px;
+  text-align: center;
+}
+#we-do .container .row .we-do__content .content__service h4 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #3D3D3D;
+  margin-bottom: 10px;
+}
+#we-do .container .row .we-do__content .content__service p {
+  font-size: 16px;
+  color: #5D5D5D;
+  line-height: 28px;
+}
+#we-do .container .row .we-do__content .content__icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 4px;
+  font-size: 40px;
+  position: absolute;
+  margin-bottom: 20px;
+  top: 1px;
+  left: 35%;
+  background-color: #59B210;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+#brand_icon {
+  padding: 80px 0;
+}
+
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
   top: 30px;

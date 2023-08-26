@@ -1,0 +1,265 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+// ----------shop-by ----------
+
+#shop-by{
+    padding: 40px 0 80px 0;
+    .container{
+        .shop-by__wrapper{
+            display: flex;
+            background-color: $gray;
+            .shop-by__department{
+                position: relative;
+                &:hover .dropdown{
+                    opacity: 1;
+                    visibility: visible;
+                    top: 60px;
+                }
+                ul{
+                    left: 5px;
+                    width: 98%;
+                    li{
+                        border-bottom: 1px solid $bordergray;
+                        a{
+                            padding: 0;
+                            color: #262626;
+                            background-color: inherit;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                a{
+                    padding: 19px 17px;
+                    display: inline-block;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    font-weight: 700;
+                    border-radius: 5px;
+                    transition: all linear 0.2s;
+                    margin: 0 0 0 5px;
+                    color: $white;
+                    background-color: $green;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+            }
+            .shop-by__home{
+                a{
+                    padding: 19px 17px;
+                    display: inline-block;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    font-weight: 400;
+                    color: $navtext;
+                    transition: all linear 0.2s;
+                    position: relative;
+                    border-right: 1px solid $bordergray;
+                    &:hover{
+                        background-color: $darkgray;
+                        &::after{
+                            border-color: transparent transparent transparent $darkgray !important;
+                        }
+                        &::before{
+
+                        }
+                    }
+                    &::after{
+                        top: 39%;
+                        right: -8px;
+                        border-width: 7.5px 0 7.5px 10px;
+                        border-color: transparent transparent transparent #F9F9F9;
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        z-index: 100;
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        transition: 0.2s ease   
+                    }
+                    &::before{
+                        top: 39%;
+                        right: -10px;
+                        border-width: 7.5px 0 7.5px 10px;
+                        border-color: transparent transparent transparent #e0e0e0;
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        z-index: 100;
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        transition: 0.2s ease;
+                    }
+                }
+            }
+            .shop-by__about{
+                a{
+                    padding: 19px 17px;
+                    display: inline-block;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    font-weight: 400;
+                    color: $navtext;
+                    transition: all linear 0.2s;
+                    position: relative;
+                    &:hover{
+                        background-color: $darkgray;
+                    }
+                }    
+            }
+        }
+    }
+}
+
+// ------------about us---------
+
+#about-us{
+    padding-bottom: 100px;
+    .container{
+        .row{
+            align-items: center;
+            margin-bottom: 30px;
+            .about__detail{
+                h4{
+                    color: $black;
+                    font-size: 28px;
+                    line-height: 36px;
+                    font-weight: normal !important;
+                    padding-bottom: 14px;
+                    margin-bottom: 12px;
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: $navtext;
+                }
+            }
+            .about__img{
+                h2{
+                    text-align: center;
+                    padding: 26px 0;
+                    background-color: $gray;
+                    font-size: 24px;
+                    color: $black;
+                    border-bottom: 1px solid $bordergray;
+                    border-left: 1px solid $bordergray;
+                    border-right: 1px solid $bordergray;
+                    border-radius: 0 0 5px 5px;
+                    span{
+                        font-size: 18px;
+                        color: $navtext;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---------what we do--------
+
+#we-do{
+    padding: 80px 0;
+    background-color: $gray;
+    .container{
+        .row{
+            .we-do__detail{
+                h4{
+                    font-size: 28px;
+                    line-height: 36px;
+                    font-weight: normal !important;
+                    padding-bottom: 14px;
+                    margin-bottom: 12px;
+                    color: $black;
+                }
+                p{
+                    font-size: 17px;
+                    line-height: 28px;
+                    color: $navtext;
+                }
+            }
+            .we-do__content{
+                padding-top: 35px;
+                position: relative;
+                .content__service{
+                    background-color: $white;
+                    padding: 55px 35px 30px 35px;
+                    text-align: center;
+                    h4{
+                        font-size: 21px;
+                        font-weight: 600;
+                        line-height: 36px;
+                        color: $black;
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: $navtext;
+                        line-height: 28px;
+                    }
+                }
+                .content__icon{
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 4px;
+                    font-size: 40px;
+                    position: absolute;
+                    margin-bottom: 20px;
+                    top: 1px;
+                    left: 35%;
+                    background-color: $green;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+// -------------brand-------------
+
+#brand_icon{
+    
+    padding: 80px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
