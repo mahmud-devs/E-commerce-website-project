@@ -1207,6 +1207,152 @@ a {
   color: #59B210;
 }
 
+#register {
+  padding: 0 0 100px 0;
+}
+#register .container .row .register__sign_in {
+  padding-right: 50px;
+}
+#register .container .row .register__sign_in .sign_in__heading h2 {
+  color: #3D3D3D;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: normal !important;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+}
+#register .container .row .register__sign_in .sign_in__heading p {
+  color: #5D5D5D;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 28px;
+}
+#register .container .row .register__sign_in .sign_in__icon {
+  padding: 15px 0 25px 0;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+}
+#register .container .row .register__sign_in .sign_in__icon a {
+  padding: 20px;
+  background-color: #2e4674;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 8px;
+}
+#register .container .row .register__sign_in .sign_in__icon a i {
+  font-size: 22px;
+  margin-right: 10px;
+}
+#register .container .row .register__sign_in .sign_in__icon .twitter {
+  background-color: #3498db;
+}
+#register .container .row .register__sign_in .register__form {
+  margin-bottom: 40px;
+}
+#register .container .row .register__sign_in .register__form .register__email {
+  margin-bottom: 20px;
+}
+#register .container .row .register__sign_in .register__form .register__email h2 {
+  color: #3D3D3D;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+#register .container .row .register__sign_in .register__form .register__email input {
+  width: 100%;
+  padding: 10px;
+  background-color: #dddada;
+  outline: none;
+  border: none;
+}
+#register .container .row .register__sign_in .register__form .confirm__password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#register .container .row .register__sign_in .register__form .confirm__password .checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#register .container .row .register__sign_in .register__form .confirm__password .checkbox p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #5D5D5D;
+}
+#register .container .row .register__sign_in .register__form .confirm__password a {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #5D5D5D;
+}
+#register .container .row .register__sign_up {
+  padding-left: 50px;
+}
+#register .container .row .register__sign_up .sign_in__heading h2 {
+  color: #3D3D3D;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: normal !important;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+}
+#register .container .row .register__sign_up .sign_in__heading p {
+  color: #5D5D5D;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 28px;
+}
+#register .container .row .register__sign_up .sign_up__form {
+  margin-bottom: 40px;
+}
+#register .container .row .register__sign_up .sign_up__form form {
+  margin-top: 50px;
+}
+#register .container .row .register__sign_up .sign_up__form form h3 {
+  color: #3D3D3D;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+#register .container .row .register__sign_up .sign_up__form form input {
+  width: 100%;
+  padding: 10px;
+  background-color: #dddada;
+  outline: none;
+  border: none;
+}
+#register .container .row .register__sign_up .sign_up__today {
+  padding-top: 50px;
+}
+#register .container .row .register__sign_up .sign_up__today h2 {
+  color: #3D3D3D;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: normal !important;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+}
+#register .container .row .register__sign_up .sign_up__today ul li {
+  margin-bottom: 15px;
+  color: #5D5D5D;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#register .container .row .register__sign_up .sign_up__today ul li i {
+  color: #59B210;
+  font-size: 20px;
+}
+
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
   top: 30px;

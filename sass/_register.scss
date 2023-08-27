@@ -1,0 +1,191 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+$facebook : #2e4674;
+// --------register---------
+
+#register{
+    padding:0 0 100px 0;
+    .container{
+        .row{            
+            .register__sign_in{
+                padding-right: 50px;
+                .sign_in__heading{
+                    h2{
+                        color: $black;
+                        border-bottom: 1px solid $bordergray;
+                        font-size: 30px;
+                        line-height: 36px;
+                        font-weight: normal !important;
+                        padding-bottom: 14px;
+                        margin-bottom: 12px;
+                      
+                    }
+                    p{
+                        color: $navtext;
+                        margin-bottom: 10px;
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+                .sign_in__icon{
+                    padding: 15px 0 25px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    padding-right: 80px;
+                    a{
+                        padding: 20px;
+                        background-color: $facebook;
+                        color: $white;
+                        text-transform: capitalize;
+                        border-radius: 8px;
+                        i{
+                            font-size: 22px;
+                            margin-right: 10px;
+                        }
+                    }
+                    .twitter{
+                        background-color: $blue;
+                    }
+                }
+                .register__form{
+                    .register__email{
+                        margin-bottom: 20px;
+                        h2{
+                            color: $black;
+                            font-size: 16px;
+                            line-height: 22px;
+                            font-weight: 600 !important;
+                            text-transform: capitalize;
+                        }
+                        input{
+                            width: 100%;
+                            padding: 10px;
+                            background-color: $darkgray;
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                    .confirm__password{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .checkbox{
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                            p{
+                                margin: 0;
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: $navtext;
+                            }
+                        }
+                        a{
+                            margin: 0;
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: $navtext;
+                        }
+                    }
+                    margin-bottom: 40px;           
+                }
+            }
+            .register__sign_up{
+                padding-left: 50px;
+                .sign_in__heading{
+                    h2{
+                        color: $black;
+                        border-bottom: 1px solid $bordergray;
+                        font-size: 30px;
+                        line-height: 36px;
+                        font-weight: normal !important;
+                        padding-bottom: 14px;
+                        margin-bottom: 12px;
+                      
+                    }
+                    p{
+                        color: $navtext;
+                        margin-bottom: 10px;
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+                .sign_up__form{
+                    margin-bottom: 40px;
+                    form{
+                        margin-top: 50px;
+                        h3{
+                            color: $black;
+                            font-size: 16px;
+                            line-height: 22px;
+                            font-weight: 600 !important;
+                            text-transform: capitalize;
+                        }
+                        input{
+                            width: 100%;
+                            padding: 10px;
+                            background-color: $darkgray;
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                }
+                .sign_up__today{
+                    padding-top: 50px;
+                    h2{
+                        color: $black;
+                        font-size: 30px;
+                        line-height: 36px;
+                        font-weight: normal !important;
+                        padding-bottom: 14px;
+                        margin-bottom: 12px;
+                    }
+                    ul{
+                        li{
+                            margin-bottom: 15px;
+                            color: $navtext;
+                            font-size: 16px;
+                            font-weight: 600;
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                            i{
+                                color: $green;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
