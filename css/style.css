@@ -1125,7 +1125,10 @@ a {
 }
 
 #messege {
-  padding: 100px 0;
+  padding: 50px 0 120px 0;
+}
+#messege .container .row .messege__form {
+  padding-right: 25px;
 }
 #messege .container .row .messege__form .form__heading h2 {
   color: #3D3D3D;
@@ -1162,6 +1165,46 @@ a {
 }
 #messege .container .row .messege__form .form__contact form .row .contact__name input::placeholder, #messege .container .row .messege__form .form__contact form .row .contact__name textarea::placeholder {
   text-transform: capitalize;
+}
+#messege .container .row .messege__info {
+  padding-left: 55px;
+}
+#messege .container .row .messege__info .info__heading h2 {
+  color: #3D3D3D;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: normal !important;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+}
+#messege .container .row .messege__info .info__heading address {
+  line-height: 28px;
+  font-size: 16px;
+  color: #5D5D5D;
+  margin-bottom: 20px;
+}
+#messege .container .row .messege__info .info__heading h3 {
+  font-size: 16px;
+  color: #3D3D3D;
+  margin: 40px 0;
+  font-weight: 600;
+}
+#messege .container .row .messege__info .info__heading ul li {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 16px;
+  line-height: 28px;
+  width: 75%;
+}
+#messege .container .row .messege__info .info__heading p {
+  color: #747474;
+  font-size: 16px;
+  line-height: 28px;
+}
+#messege .container .row .messege__info .info__heading p a {
+  color: #59B210;
 }
 
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {

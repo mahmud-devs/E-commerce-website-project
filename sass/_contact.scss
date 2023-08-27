@@ -51,10 +51,11 @@ $bluegray: #4F6276;
 // =========messege-------
 
 #messege{
-    padding: 100px 0;
+    padding: 50px 0 120px 0;
     .container{
         .row{
             .messege__form{
+                padding-right: 25px;
                 .form__heading{
                     h2{
                         color: $black;
@@ -96,6 +97,50 @@ $bluegray: #4F6276;
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+            .messege__info{
+                padding-left: 55px;
+                .info__heading{
+                    h2{
+                        color: $black;
+                        border-bottom: 1px solid $bordergray;
+                        font-size: 28px;
+                        line-height: 36px;
+                        font-weight: normal !important;
+                        padding-bottom: 14px;
+                        margin-bottom: 12px;
+                    }
+                    address{
+                        line-height: 28px;
+                        font-size: 16px;
+                        color: $navtext;
+                        margin-bottom: 20px;
+                    }
+                    h3{
+                        font-size: 16px;
+                        color: $black;
+                        margin: 40px 0;
+                        font-weight: 600;
+                    }
+                    ul{
+                        li{
+                            display: flex;
+                            justify-content: space-between;
+                            color: $perablack;
+                            font-size: 16px;
+                            line-height: 28px;
+                            width: 75%;
+                        }
+                    }
+                    p{
+                        color: #747474;
+                        font-size: 16px;
+                        line-height: 28px;
+                        a{
+                            color: $green;
                         }
                     }
                 }
