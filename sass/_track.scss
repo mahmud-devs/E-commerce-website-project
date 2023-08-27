@@ -1,0 +1,90 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+// ------------track----------
+
+#track{
+    padding-bottom: 90px;
+    .container{
+        .track__main{
+            padding: 0 100px 0 100px;
+            .track__heading{
+                h2{
+                    font-size: 42px;
+                    color: $black;
+                    text-align: center;
+                    line-height: 18px;
+                    font-weight: normal !important;
+                    margin-bottom: 12px;
+                    padding-bottom: 14px;
+                    line-height: 40px;
+                    margin-bottom: 40px;
+                }
+                p{
+                    color: $navtext;
+                    font-size: 18px;
+                    line-height: 30px;
+                    margin-bottom: 25px;
+                }
+            }
+            .row{
+                .track__id{
+                    margin-bottom: 25px;
+                    p{
+                        display: block;
+                        font-weight: 700;
+                        font-size: 15px;
+                        color: $black;
+                        margin-bottom: 10px;
+                    }
+                    input{
+                        border-radius: 3px;
+                        background-color: #ececec;
+                        border: none;
+                        color: $black;
+                        width: 100%;
+                        padding: 10px;
+                        transition: 0.3s ease;
+                        outline: none;
+                        &:hover{
+                            background-color: $darkgray;
+                        }                        
+                    }
+                    .common__btn{
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

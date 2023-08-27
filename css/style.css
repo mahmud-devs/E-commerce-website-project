@@ -1353,6 +1353,56 @@ a {
   font-size: 20px;
 }
 
+#track {
+  padding-bottom: 90px;
+}
+#track .container .track__main {
+  padding: 0 100px 0 100px;
+}
+#track .container .track__main .track__heading h2 {
+  font-size: 42px;
+  color: #3D3D3D;
+  text-align: center;
+  line-height: 18px;
+  font-weight: normal !important;
+  margin-bottom: 12px;
+  padding-bottom: 14px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+#track .container .track__main .track__heading p {
+  color: #5D5D5D;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+#track .container .track__main .row .track__id {
+  margin-bottom: 25px;
+}
+#track .container .track__main .row .track__id p {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  color: #3D3D3D;
+  margin-bottom: 10px;
+}
+#track .container .track__main .row .track__id input {
+  border-radius: 3px;
+  background-color: #ececec;
+  border: none;
+  color: #3D3D3D;
+  width: 100%;
+  padding: 10px;
+  transition: 0.3s ease;
+  outline: none;
+}
+#track .container .track__main .row .track__id input:hover {
+  background-color: #dddada;
+}
+#track .container .track__main .row .track__id .common__btn {
+  margin-top: 30px;
+}
+
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
   top: 30px;
