@@ -1095,6 +1095,75 @@ a {
   cursor: not-allowed;
 }
 
+#maps {
+  width: 100%;
+  height: 500px;
+}
+
+#direction {
+  padding: 20px 0;
+  background-color: #dddada;
+}
+#direction .container .direction__wrapper {
+  display: flex;
+  justify-content: center;
+}
+#direction .container .direction__wrapper input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  padding-left: 50px;
+  outline: none;
+  transition: all linear 0.2s;
+}
+#direction .container .direction__wrapper input:focus {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 255, 0.233);
+}
+#direction .container .direction__wrapper .common__btn {
+  border-radius: 0 5px 5px 0;
+}
+
+#messege {
+  padding: 100px 0;
+}
+#messege .container .row .messege__form .form__heading h2 {
+  color: #3D3D3D;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: normal !important;
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+#messege .container .row .messege__form .form__heading p {
+  color: #5D5D5D;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 28px;
+}
+#messege .container .row .messege__form .form__contact form .row .contact__name h2 {
+  color: #3D3D3D;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+#messege .container .row .messege__form .form__contact form .row .contact__name input, #messege .container .row .messege__form .form__contact form .row .contact__name textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #dddada;
+  outline: none;
+  border: none;
+  padding-left: 30px;
+}
+#messege .container .row .messege__form .form__contact form .row .contact__name input::-moz-placeholder, #messege .container .row .messege__form .form__contact form .row .contact__name textarea::-moz-placeholder {
+  text-transform: capitalize;
+}
+#messege .container .row .messege__form .form__contact form .row .contact__name input::placeholder, #messege .container .row .messege__form .form__contact form .row .contact__name textarea::placeholder {
+  text-transform: capitalize;
+}
+
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
   top: 30px;
