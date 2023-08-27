@@ -196,6 +196,7 @@ $bannergray: #f6f6f6;
                         &::after{
                             opacity: 11;
                             top: 60px;
+                            z-index: 999;
                         }
                     }
                     &::after{
