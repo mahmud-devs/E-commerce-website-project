@@ -1,0 +1,232 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+// ------------checkout------------
+
+#checkout{
+    padding:0px 0 50px 0;
+    .container{
+        .checkout__address{
+            .checkout__heading{
+                font-size: 30px;
+                line-height: 52px;
+                font-weight: 500 !important;
+                color: $black;
+                border-bottom: 1px solid $bordergray;
+                letter-spacing: -1px;
+                text-transform: capitalize;
+            }
+            form{
+                padding-top: 30px;
+                margin-bottom: 50px;
+                .row{
+                    margin-bottom: 40px;
+                   .checkout__name{
+                        h4{
+                            max-width: 100%;
+                            margin-bottom: 5px;
+                            display: block;
+                            font-weight: 700;
+                            font-size: 14px;
+                            color: $black;
+                            text-transform: capitalize;
+                            margin-bottom: 10px;
+                        }
+                        .common__input{
+                            padding: 10px;
+                            background-color: #ececec;
+                            border: 0;
+                            outline: none;
+                            border-radius: 3px;
+                            transition: all linear 0.2s;
+                            width: 100%;
+                            &::placeholder{
+                                text-transform: capitalize;
+                            }
+                            &:hover{
+                                background-color:$darkgray ;
+                            }
+                            &:focus{
+                                background-color: $darkgray;
+                            }
+                        }
+                        
+                    } 
+                }
+                .checkout__creat{
+                    font-size: 13px;
+                    color: $navtext;
+                    a{
+                        font-size: 14px;
+                        color: $black;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        display: inline-block;
+                        margin-left: 10px;
+                        transition: all linear 0.2s
+                        ;
+                        &:hover{
+                            color: $green;
+                        }
+                    }
+                }
+            }
+            .shipping__input{
+                margin-bottom: 50px;
+                padding-top: 20px;
+                a{
+                    font-size: 14px;
+                    color: $black;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    display: inline-block;
+                    margin-left: 10px;
+                    transition: all linear 0.2s
+                    ;
+                    display: inline-block;
+                    &:hover{
+                        color: $green;
+                    }
+                }
+            }
+            .checkout__order{
+                padding: 30px 0;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid $bordergray;
+                align-items: center;
+                .order__name{
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+                    h5{
+                        color: $black;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    div{
+                        a{
+                            font-size: 16px;
+                            line-height: 30px;
+                            font-weight: 600;
+                            color: $black;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            font-size: 13px;
+                            color: $black;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                h6{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: $navtext;
+                }
+            }
+            .order__total{
+                margin-top: 40px;
+                display: flex;
+                align-items: end;
+                flex-direction: column;
+                margin-bottom: 20px;
+                .total__valu{
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px
+                    ;
+                    padding-bottom: 30px;
+                    border-bottom: 1px solid $darkgray;
+                    .sub__valu{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+
+                        p{
+                            color: $black;
+                            font-size: 15px;
+                            margin: 0;
+                            text-transform: capitalize;
+                        }
+                        span{
+                            color: $black;
+                            font-weight: 700;
+                            font-size: 15px;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+                .total__total{
+                    display: flex;
+                    padding-top: 20px;
+                    width: 30%;
+                    justify-content: 
+                    space-between;
+                    align-items: center;
+                    p{
+                        text-transform: capitalize;
+                        margin: 0;
+                    }
+                    span{
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .order__final{
+                display: flex;
+                gap: 20px
+                ;
+                align-items: center;
+                padding: 40px;
+                border-bottom: 1px solid $bordergray;
+                p{
+                    font-size: 17px;
+                    font-weight: 700;
+                    color: $perablack;
+                    margin: 0;
+                }
+            }
+            .checkout__btn{
+                padding-top: 40px;
+                justify-content: end;
+                display: flex;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

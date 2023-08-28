@@ -60,6 +60,7 @@ a{
     transition: all linear 0.2s;
     &:hover{
         opacity: 0.7;
+        color: $white;
     }
 }
 // ---------common btn----------
@@ -114,7 +115,40 @@ a{
 // --------dropdown-------------
 
 
+// --------checkout ------
 
+.checkout__heading{
+    font-size: 30px;
+    line-height: 52px;
+    font-weight: 500 !important;
+    color: $black;
+    border-bottom: 1px solid $bordergray;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+
+.common__input{
+    padding: 10px;
+    background-color: #ececec;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+    transition: all linear 0.2s;
+    width: 100%;
+    &::placeholder{
+        text-transform: capitalize;
+    }
+    &:hover{
+        background-color:$darkgray ;
+    }
+    &:focus{
+        background-color: $darkgray;
+    }
+}
+
+
+// --------checkout ------
 
 
 
