@@ -182,7 +182,7 @@
                     <a href="#">home</a>
                 </div>
                 <div class="shop-by__about">
-                    <a href="#">Track your Order</a>
+                    <a href="#">shoping cart</a>
                 </div>
             </div>
         </div>
@@ -190,46 +190,180 @@
 
     <!-- ---------------------shop-by start here---------------------- -->
 
-    <!-- -----------------------track start here-------------------- -->
+    <!-- -----------------------cart start here----------------------- -->
 
-    <section id="track">
+    <section id="cart">
         <div class="container">
-            <div class="track__main">
-                <div class="track__heading">
-                    <h2>Track your Order</h2>
-                    <p>
-                        To track your order please enter your Order ID in the box below and press return. This was given to you on your receipt and in the confirmation email you should have received.
-                    </p>
-                </div>
-                <form action="" method="post" class="row">
-                    <div class="col-lg-12 track__id">
-                        <p>Order ID</p>
-                        <input type="text" placeholder="Found in your order confirmation email.">
+            <div class="cart__wrapper">
+                <div class="cart__item_main">
+                    <div class="row cart__item">
+                        <div class="col-lg-2 cart__item_img">
+                            <img src="images/product-small-02.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3 cart__item_name">
+                            <a href="#">white lumia 9001</a>
+                            <p>sony</p>
+                        </div>
+                        <div class="col-lg-5 cart__item_number">
+                            <div class="handle-counter" id="handleCounter">        
+                                <p class="counter-minus btn btn-primary">
+                                    <i class="fa-solid fa-minus"></i>
+                                </p>        
+                                <input type="text" value="1">        
+                                <p class="counter-plus btn btn-primary">
+                                    <i class="fa-solid fa-plus"></i>
+                                </p>        
+                            </div>
+                        </div>
+                        <div class="col-lg-2 cart__item_price">
+                            <h2>$2000.00</h2>
+                            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                        </div>
                     </div>
-                    <div class="col-lg-12 track__id">
-                        <p>Billing Email</p>
-                        <input type="text" placeholder="Email you used during checkout.">
-                        <button class="common__btn">track</button>
-                    </div>                    
-                </form>
+                    <div class="row cart__item">
+                        <div class="col-lg-2 cart__item_img">
+                            <img src="images/product-small-02.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3 cart__item_name">
+                            <a href="#">white lumia 9001</a>
+                            <p>sony</p>
+                        </div>
+                        <div class="col-lg-5 cart__item_number">
+                            <div class="handle-counter" id="handleCounter2">        
+                                <p class="counter-minus btn btn-primary">
+                                    <i class="fa-solid fa-minus"></i>
+                                </p>        
+                                <input type="text" value="1">        
+                                <p class="counter-plus btn btn-primary">
+                                    <i class="fa-solid fa-plus"></i>
+                                </p>        
+                            </div>
+                        </div>
+                        <div class="col-lg-2 cart__item_price">
+                            <h2>$2000.00</h2>
+                            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                        </div>
+                    </div>
+                    <div class="row cart__item">
+                        <div class="col-lg-2 cart__item_img">
+                            <img src="images/product-small-02.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3 cart__item_name">
+                            <a href="#">white lumia 9001</a>
+                            <p>sony</p>
+                        </div>
+                        <div class="col-lg-5 cart__item_number">
+                            <div class="handle-counter" id="handleCounter3">        
+                                <p class="counter-minus btn btn-primary">
+                                    <i class="fa-solid fa-minus"></i>
+                                </p>        
+                                <input type="text" value="1">        
+                                <p class="counter-plus btn btn-primary">
+                                    <i class="fa-solid fa-plus"></i>
+                                </p>        
+                            </div>
+                        </div>
+                        <div class="col-lg-2 cart__item_price">
+                            <h2>$2000.00</h2>
+                            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                        </div>
+                    </div>
+                    <div class="row cart__item">
+                        <div class="col-lg-2 cart__item_img">
+                            <img src="images/product-small-02.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3 cart__item_name">
+                            <a href="#">white lumia 9001</a>
+                            <p>sony</p>
+                        </div>
+                        <div class="col-lg-5 cart__item_number">
+                            <div class="handle-counter" id="handleCounter4">        
+                                <p class="counter-minus btn btn-primary">
+                                    <i class="fa-solid fa-minus"></i>
+                                </p>        
+                                <input type="text" value="1">        
+                                <p class="counter-plus btn btn-primary">
+                                    <i class="fa-solid fa-plus"></i>
+                                </p>        
+                            </div>
+                        </div>
+                        <div class="col-lg-2 cart__item_price">
+                            <h2>$2000.00</h2>
+                            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                        </div>
+                    </div>
+                </div>                
+                <div class="cart__detail_main">
+                    <div class="cart__detail">
+                        <h4>shopping cart</h4>
+                        <div class="cart__detail_price">
+                            <div class="price__main">
+                                <p>cart subtotal</p>
+                                <h6>$8434.00</h6>
+                            </div>
+                            <div  class="price__main one">
+                                <p>shipping</p>
+                                <h6>free shipping</h6>
+                            </div>
+                            <div  class="price__main two">
+                                <p>order</p>
+                                <h6>$8434.00</h6>
+                            </div>
+                            <div class="price__btn">
+                                <a href="#" class="common__btn">checkout</a>
+                            </div>
+                            <a href="#">continue shoping</a>
+                        </div>
+                    </div>
+                    <div class="cart__coupon">
+                        <h4>use coupon</h4>
+                        <div class="coupon__search">
+                            <input type="text" placeholder="enter coupon code">
+                            <a href="#">apply</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
 
-    <!-- -----------------------track start end-------------------- -->
 
 
-    <!-- <div class="handle-counter" id="handleCounter">
-        
-        <button class="counter-minus btn btn-primary">-</button>
-        
-        <input type="text" value="3">
-        
-        <button class="counter-plus btn btn-primary">+</button>
-        
-    </div> -->
+
+
+
+
+
+
+
+
+
+
+    <!-- -----------------------cart start here----------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
@@ -483,22 +617,6 @@
 
 
     <!-- ------------------------coppy start here----------------- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

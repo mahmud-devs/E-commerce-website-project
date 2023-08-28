@@ -91,6 +91,36 @@ $(function(){
         ]
     });
     
+    // ------------------handlecounter-------------
+
+    $('#handleCounter').handleCounter({
+      
+          minimum: 0,
+      
+          maximize: 50,
+      
+    });
+    $('#handleCounter2').handleCounter({
+      
+          minimum: 0,
+      
+          maximize: 50,
+      
+    });
+    $('#handleCounter3').handleCounter({
+      
+          minimum: 0,
+      
+          maximize: 50,
+      
+    });
+    $('#handleCounter4').handleCounter({
+      
+          minimum: 0,
+      
+          maximize: 50,
+      
+    });
 
 
 });

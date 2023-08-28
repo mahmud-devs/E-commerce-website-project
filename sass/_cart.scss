@@ -1,0 +1,229 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+// ----------cart----------
+#cart{
+    padding:0 0 100px 0 ;
+    .container{
+        .cart__wrapper{
+            width: 100%;
+            display: flex;
+            .cart__item_main{
+                width: 75%;
+                .cart__item{
+                    width: 100%;
+                    padding: 30px 0;
+                    border-bottom: 1px solid $bordergray;
+                    align-items: center;
+                    justify-content: space-between;
+                    .cart__item_img{
+                        img{
+                            border: 1px solid $bordergray;
+                        }
+                    }
+                    .cart__item_name{
+                        a{
+                            line-height: 15px;
+                            font-size: 16px;
+                            text-transform: capitalize;
+                            font-weight: 700;
+                            color: $textblue;
+                            transition: all linear 0.2s;
+                            &:hover{
+                                color: $green;
+                            }
+                        }
+                        p{
+                            font-size: 12px;
+                            line-height: 25px;
+                            color: $navtext;
+                        }
+                    }
+                    .cart__item_number{
+                        .handle-counter{
+                            display: flex;
+                            align-items: center;
+                            p{
+                                width: 30px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+    
+                                height: 60px;
+                                font-size: 16px;
+                                border: 1px solid $bordergray;
+                                background-color: $gray;
+                                margin: 0;
+                                border-radius: 0;
+                                color: $black;
+                                transition: all linear 0.2s;
+                                &:hover{
+                                    opacity: 0.8;
+                                    color: $green;
+                                }
+                            }
+                            input{
+                                height: 60px;
+                                width: 60px;
+                                padding: 0 0 0 0;
+                                padding-left: 22px;
+                                border: 0;
+                                border-top: 1px solid $bordergray;
+                                border-bottom: 1px solid $bordergray;
+                                font-size: 20px;
+                                outline: none;
+                            }
+                        }
+                    }
+                    .cart__item_price{
+                        display: flex;
+                        gap: 14px;
+                        h2{
+                            font-weight: 700;
+                            font-size: 18px;
+                            color: $black;
+                            margin: 0;
+                        }
+                        a{
+                            font-size: 16px;
+                            color: $black;
+                            transition: all linear 0.2s;
+                            &:hover{
+                                color: $green;
+                            }
+                        }
+                    }
+                }
+            }
+            .cart__detail_main{
+                width: 25%;
+                padding-left: 50px;
+                .cart__detail{
+                    width: 100%;
+                    h4{
+                        border-bottom: 1px solid $bordergray;
+                        line-height: 55px;
+                        text-transform: capitalize;
+                        color: $black;
+                        font-size: 28px;
+                    }
+                    .cart__detail_price{
+                        margin: 20px 0;
+                        .price__main{
+                            display: flex;
+                            justify-content: space-between;
+                            text-transform: capitalize;
+                            margin-bottom: 20px;
+                            p{
+                                font-size: 16px;
+                                color: $black;
+                            }
+                            h6{
+                                font-size: 14px;
+                                color: black;
+                                font-weight: 700;
+                            }
+                        }
+                        .price__main.one{
+                            border-bottom: 1px solid $bordergray;
+                            padding-bottom: 10px;
+                            margin-bottom: 10px;
+                        }
+                        .price__main.two{
+                            padding-top: 20px;
+                            h6{
+                                font-size: 30px;
+                            }
+                        }
+                        .price__btn{
+                            display: flex;
+                            justify-content: end;
+                            a{
+                                color: $white;
+                                &:hover{
+                                    color: $white;
+                                }
+                            }
+                        }
+                        a{
+                            margin-top: 15px;
+                            color: $black;
+                            transition: all linear 0.2s;
+                            display: block;
+                            text-align: end;
+                            text-transform: capitalize;
+                            &:hover{
+                                color: $green;
+                            }
+                        }
+                    }
+                    
+                }
+                .cart__coupon{
+                    h4{
+                        border-bottom: 1px solid $bordergray;
+                        line-height: 55px;
+                        text-transform: capitalize;
+                        color: $black;
+                        font-size: 28px;
+                    }
+                    .coupon__search{
+                        padding-top: 20px;
+                        input{
+                            width: 73% !important;
+                            padding: 15px 14px;
+                            font-size: 13px;
+                            line-height: 20px;
+                            border-radius: 5px 0 0 5px;
+                            border: 0;
+                            background-color: 
+                            $darkgray;
+                            outline: none;
+                            &::placeholder{
+                                text-transform: capitalize;
+                            }
+                        }
+                        a{
+                            padding: 13px 14px;
+                            width: 27%;
+                            float: right;
+                            border-radius: 0 5px 5px 0;
+                            text-transform: capitalize;
+                            background-color: $green;
+                            color: $white;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
