@@ -1,0 +1,96 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$bluegray: #4F6276;
+
+
+#blog .container .row .blog__main .blog__office ul li:nth-child(1) {
+	position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+    }
+}
+
+
+
+// ---------blog----------
+
+#blog{
+    padding:0 0 300px 0;
+    .container{
+        .row{
+            .blog__main{
+                .blog__img{
+                    padding-bottom: 40px;
+                    .slider__content_1{
+                        background: url(../images/blog-1.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .slider__content_2{
+                        background: url(../images/blog-2.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+                .blog__office{
+                    padding-bottom: 25px;
+                    border-bottom: 1px solid $bordergray;
+                    h2{
+                        padding-bottom: 20px;
+                        font-size: 30px;
+                        color: $black;
+                        line-height: 120%;
+                        font-weight: 400 !important;
+                        text-transform: capitalize;
+                    }
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        li{
+                            color: $perablack;
+                            font-size: 16px;
+                            display: inline-block;
+                            position: relative;
+                            &::after{
+                                content: "\f111";
+                                position: absolute;
+                                font-family: fontawesome;
+                                left: -18px;
+                                top: 35%;
+                                font-size: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
