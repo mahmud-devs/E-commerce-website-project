@@ -121,6 +121,13 @@ $(function(){
           maximize: 50,
       
     });
+    $('#handleCounte_single-product').handleCounter({
+      
+          minimum: 0,
+      
+          maximize: 50,
+      
+    });
 
 
 });
