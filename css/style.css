@@ -2405,6 +2405,44 @@ a {
   margin-right: 30px;
 }
 
+.main__description {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  padding: 35px;
+}
+.main__description P {
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #5D5D5D;
+  line-height: 1.5;
+}
+.main__description .description__tag {
+  margin-top: 50px;
+}
+.main__description .description__tag span {
+  font-size: 15px;
+  color: #3D3D3D;
+  text-transform: capitalize;
+}
+.main__description .description__tag span h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3D3D3D;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.main__description .description__tag span a {
+  color: #59B210;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.main__description .description__tag span .separetor {
+  margin: 0 25px;
+}
+
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
   top: 30px;

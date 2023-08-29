@@ -199,7 +199,61 @@ $bluegray: #4F6276;
     }
 }
 
+// ---------------navs & tabs main description-------
 
+.main__description{
+    width: 100%;
+    border-bottom: 1px solid $bordergray;
+    border-left: 1px solid $bordergray;
+    border-right: 1px solid $bordergray;
+    padding: 35px;
+    P{
+        margin-bottom: 25px;
+        font-size: 16px;
+        color: $navtext;
+        line-height: 1.5;
+    }
+    .description__tag{
+        margin-top: 50px;
+        span{
+            h4{
+                font-size: 15px;
+                font-weight: 700;
+                color: $black;
+                display: inline-block;
+                text-transform: capitalize;
+            }
+            a{
+                color: $green;
+                font-size: 15px;
+                font-weight: 700;
+                margin-right: 4px;
+            }
+            .separetor{
+                margin:0 25px ;
+            }
+            font-size: 15px;
+            color: $black;
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------navs & tabs main description-------
 
 
 
