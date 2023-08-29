@@ -77,6 +77,67 @@ $bluegray: #4F6276;
                         }
                     }
                 }
+                .blog__pera{
+                    padding-top: 25px;
+                    .pera__bold{
+                        font-size: 21px ;
+                        font-weight: 700 ;
+                    }
+                    p{
+                        font-size: 18px ;
+                        line-height: 32px ;
+                        color: $navtext;
+                        padding: 0 ;
+                        margin-bottom: 40px;
+                    }
+                    .row{
+                        padding-top: 20px;
+                        .pera__big{
+                            padding-right: 20px;
+                            h6{
+                                margin-bottom: 40px;
+                                color: $navtext;
+                                font-size: 20px;
+                                line-height: 30px;
+                                font-weight: 500;
+                            }
+                        }
+                        .pera__small{
+                            padding-left: 50px;
+                            position: relative;
+                            &::after{
+                                position: absolute;
+                                content: "\f10d";
+                                font-family: FontAwesome;
+                                top: -10px;
+                                left: 0;
+                                font-size: 35px;
+                                color: $perablack;
+                            }
+                            p{
+                                font-weight: 700;
+                                font-style: italic;
+                                font-size: 18px;
+                                color: $perablack;
+                            }
+                        }
+                    }
+                }
+                .blog__tag{
+                    padding-bottom: 30px;
+                    label{
+                        text-transform: capitalize;
+                        font-size: 17px;
+                        font-weight: 700;
+                    }
+                    span{
+                        a{
+                            color: $green;
+                            font-size: 17px;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
             }
         }
     }

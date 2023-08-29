@@ -2016,6 +2016,65 @@ a {
   top: 35%;
   font-size: 5px;
 }
+#blog .container .row .blog__main .blog__pera {
+  padding-top: 25px;
+}
+#blog .container .row .blog__main .blog__pera .pera__bold {
+  font-size: 21px;
+  font-weight: 700;
+}
+#blog .container .row .blog__main .blog__pera p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #5D5D5D;
+  padding: 0;
+  margin-bottom: 40px;
+}
+#blog .container .row .blog__main .blog__pera .row {
+  padding-top: 20px;
+}
+#blog .container .row .blog__main .blog__pera .row .pera__big {
+  padding-right: 20px;
+}
+#blog .container .row .blog__main .blog__pera .row .pera__big h6 {
+  margin-bottom: 40px;
+  color: #5D5D5D;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+#blog .container .row .blog__main .blog__pera .row .pera__small {
+  padding-left: 50px;
+  position: relative;
+}
+#blog .container .row .blog__main .blog__pera .row .pera__small::after {
+  position: absolute;
+  content: "\f10d";
+  font-family: FontAwesome;
+  top: -10px;
+  left: 0;
+  font-size: 35px;
+  color: #777;
+}
+#blog .container .row .blog__main .blog__pera .row .pera__small p {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  color: #777;
+}
+#blog .container .row .blog__main .blog__tag {
+  padding-bottom: 30px;
+}
+#blog .container .row .blog__main .blog__tag label {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 700;
+}
+#blog .container .row .blog__main .blog__tag span a {
+  color: #59B210;
+  font-size: 17px;
+  text-transform: capitalize;
+}
 
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {
   position: absolute;
