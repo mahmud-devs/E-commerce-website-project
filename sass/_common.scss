@@ -44,6 +44,22 @@ a{
 
 // -----------common css--------
 
+.common__heading {
+	font-size: 24px;
+	font-weight: 400 !important;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 35px;
+	line-height: 40px;
+	color: #3D3D3D;
+}
+
+.common__pera{
+    font-size: 15px;
+    line-height: 26px;
+    color: $perablack;
+}
+
+
 
 
 
@@ -115,7 +131,7 @@ a{
 // --------dropdown-------------
 
 
-// --------checkout ------
+// --------checkout & input------
 
 .checkout__heading{
     font-size: 30px;
@@ -127,6 +143,18 @@ a{
     text-transform: capitalize;
 }
 
+.main__name{
+    
+    max-width: 100%;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3D3D3D;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    
+}
 
 .common__input{
     padding: 10px;
@@ -148,7 +176,7 @@ a{
 }
 
 
-// --------checkout ------
+// --------checkout $ input------
 
 // ---------slick slider------------
 
@@ -427,4 +455,87 @@ a{
 
 // ----------handle--------
 
+// ------------rating star----------
 
+.ratingstar {
+    font-size:1.2rem;
+}
+.fas.ratingstar {
+    color:#ffbf00;
+}
+.far.ratingstar {
+    color: #CCC;
+}
+
+
+
+// ------------review comment----------
+.row{
+    .blog__post_main{
+        .post__main{
+            position: relative;
+            padding: 21px;
+            border: 1px solid $bordergray;
+            &::before{
+                top: 16%;
+                left: -10px;
+                border-width: 7.5px 10px 7.5px 0px;
+                border-color: transparent #d1caca transparent rgba(224, 224, 224, 0);
+                content: "";
+                display: block;
+                position: absolute;
+                z-index: 100;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                transition: 0.2s ease;
+            }
+            &::after{
+                top: 16%;
+                border-width: 7.5px 10px 7.5px 2px;
+                border-color: transparent #fff transparent #F9F9F900;
+                content: "";
+                display: block;
+                position: absolute;
+                z-index: 100;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                transition: 0.2s ease;
+                left: -10px;
+            }
+            
+            .post__heading{
+                display: flex;
+                justify-content: space-between;
+                .post__heading_main{
+                    display: flex;
+                    span{
+                        color:$perablack ; margin-right: 15px;
+                        font-size: 15px;
+                        a{
+                            font-size: 15px;
+                            color: $green;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .post__heading_reply{
+                    span{
+                    a{
+                            font-size: 16;
+                            color: $perablack;
+                        text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+            p{
+                font-size: 16px;
+                padding-top: 20px;
+                color: $perablack;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

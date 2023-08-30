@@ -129,5 +129,46 @@ $(function(){
       
     });
 
+    // -------------------star rating---------
+
+    function setratingstars(id, rating){
+      $('#' + id + ' .ratingstar').removeClass('fas'); 
+      $('#' + id + ' .ratingstar').addClass('far');
+      for (i = 0; i <= rating; i++) {
+          $('#' + id + ' #' + i).removeClass('far');
+          $('#' + id + ' #' + i).addClass('fas');
+      }
+    }
+    
+    function saveRating(){
+        
+    }
+    
+    // Event-Listener for click stars
+    $('.ratingstar').click(function() { 
+      var rating = $(this).attr('id') 
+      var id = $(this).parent().attr('id');
+      setratingstars(id, rating);
+    });
+    
+    // Start Rating Function
+    $(function(){ 
+        $('.ratingbar').each(function(){
+            setratingstars($(this).attr('id'),$(this).data('rating-value'));
+        });
+    });
+    
+    
+
+
+
+
+
+
+
+
+
+
+
 
 });

@@ -554,13 +554,17 @@
                     <div class="single__product_info">
                         <div class="product__info_rating">
                             <div class="rating__main">
-                                <span>
-                                    <img src="images/star-on.png" alt="img">
-                                    <img src="images/star-on.png" alt="img">
-                                    <img src="images/star-on.png" alt="img">
-                                    <img src="images/star-on.png" alt="img">
-                                    <img src="images/star-on.png" alt="img">
+                                <!-- ---------rating start----------- -->
+                                <span class="rating__star">
+                                    <div id="123" class="ratingbar" data-rating-value="4" data-userid="111">
+                                        <i id="1" class="ratingstar far fa-star"></i>
+                                        <i id="2" class="ratingstar far fa-star"></i>
+                                        <i id="3" class="ratingstar far fa-star"></i>
+                                        <i id="4" class="ratingstar far fa-star"></i>
+                                        <i id="5" class="ratingstar far fa-star"></i>
+                                    </div>
                                 </span>
+                                <!-- ---------rating start----------- -->
                                 <span>
                                     Availability:
                                     <a href="#">in stock</a>
@@ -674,9 +678,9 @@
             <!-- -------------navs & tabs----------------- -->
             <nav data-aos="fade-up" data-aos-delay="100">
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                  <button class="nav-link"  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Description</button>
+                  <button class="nav-link"  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Additional Information</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Reviews (3)</button>
                 </div>
             </nav>
             <!-- -------------navs & tabs----------------- -->
@@ -716,12 +720,235 @@
                 <!-- ---------1st content-------------- -->
                 <!-- ---------2nd content-------------- -->
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    ---------
+                    <div class="main__description">
+                        <ul>
+                            <li>
+                                <label >weight</label>
+                                <span>7.25 kg</span>
+                            </li>
+                            <li>
+                                <label >dimensions</label>
+                                <span>90x60x90 cm</span>
+                            </li>
+                            <li>
+                                <label >size</label>
+                                <span>one size fits all
+                            </li>
+                            <li>
+                                <label >color</label>
+                                <span>white</span>
+                            </li>
+                            <li>
+                                <label >guarantee</label>
+                                <span>5 years</span>
+                            </li>
+                        </ul>
+                        <div class="description__tag">
+                            <span>
+                                <h4>SKU: </h4>
+                                54687621
+                                <span class="separetor">/</span>
+                            </span>
+                            <span>
+                                <h4>categories: </h4>
+                                <a href="#">-50% sale,</a>
+                                <a href="#">gaming,</a>
+                                <a href="#"> desktop PC</a>
+                                <span class="separetor">/</span>
+                            </span>
+                            <span>
+                                <h4> tag: </h4>
+                                <a href="#">fast,</a>
+                                <a href="#">gaming,</a>
+                                <a href="#"> strong</a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <!-- ---------2nd content-------------- -->
                 <!-- ---------3rd content-------------- -->
                 <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    -----------
+                    <div class="main__description">
+                        <!-- --------comment part--------- -->
+                        <div class="col-lg-12 post_post">
+                            <div class="row">
+                                <div class="col-lg-1 blog__post_img">
+                                    <img src="images/blog-author.jpg" alt="img" class="img-fluid">
+                                </div>
+                                <div class="col-lg-11 blog__post_main">
+                                    <div class="post__main">
+                                        <div class="post__heading">
+                                            <div class="post__heading_main">
+                                                <span>
+                                                    <a href="$">Jane Smith</a>
+                                                </span>
+                                                <span class="rating__star">
+                                                    <div id="234" class="ratingbar" data-rating-value="4" data-userid="222">
+                                                        <i id="1" class="ratingstar far fa-star"></i>
+                                                        <i id="2" class="ratingstar far fa-star"></i>
+                                                        <i id="3" class="ratingstar far fa-star"></i>
+                                                        <i id="4" class="ratingstar far fa-star"></i>
+                                                        <i id="5" class="ratingstar far fa-star"></i>
+                                                    </div>
+                                                </span>
+
+
+                                            </div>
+                                            <div class="post__heading_reply">
+                                                <span>
+                                                    <a href="#">reply</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 post_post">
+                            <div class="row">
+                                <div class="col-lg-1 blog__post_img">
+                                    <img src="images/blog-author.jpg" alt="img" class="img-fluid">
+                                </div>
+                                <div class="col-lg-11 blog__post_main">
+                                    <div class="post__main">
+                                        <div class="post__heading">
+                                            <div class="post__heading_main">
+                                                <span>
+                                                    <a href="$">Jane Smith</a>
+                                                </span>
+                                                <span class="rating__star">
+                                                    <div id="345" class="ratingbar" data-rating-value="3" data-userid="333">
+                                                        <i id="1" class="ratingstar far fa-star"></i>
+                                                        <i id="2" class="ratingstar far fa-star"></i>
+                                                        <i id="3" class="ratingstar far fa-star"></i>
+                                                        <i id="4" class="ratingstar far fa-star"></i>
+                                                        <i id="5" class="ratingstar far fa-star"></i>
+                                                    </div>
+                                                </span>
+
+
+                                            </div>
+                                            <div class="post__heading_reply">
+                                                <span>
+                                                    <a href="#">reply</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 post_post">
+                            <div class="row">
+                                <div class="col-lg-1 blog__post_img">
+                                    <img src="images/blog-author.jpg" alt="img" class="img-fluid">
+                                </div>
+                                <div class="col-lg-11 blog__post_main">
+                                    <div class="post__main">
+                                        <div class="post__heading">
+                                            <div class="post__heading_main">
+                                                <span>
+                                                    <a href="$">Jane Smith</a>
+                                                </span>
+                                                <span class="rating__star">
+                                                    <div id="456" class="ratingbar" data-rating-value="5" data-userid="444">
+                                                        <i id="1" class="ratingstar far fa-star"></i>
+                                                        <i id="2" class="ratingstar far fa-star"></i>
+                                                        <i id="3" class="ratingstar far fa-star"></i>
+                                                        <i id="4" class="ratingstar far fa-star"></i>
+                                                        <i id="5" class="ratingstar far fa-star"></i>
+                                                    </div>
+                                                </span>
+
+
+                                            </div>
+                                            <div class="post__heading_reply">
+                                                <span>
+                                                    <a href="#">reply</a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- --------comment part--------- -->
+                        <!-- ------------add review---------- -->
+                        <div class="row your__review">
+                            <h4>Add review</h4>
+                            <form action="" >
+                                <div class="row">
+                                    <div class="col-lg-6 review_review">
+                                        <h2>your name*</h2>
+                                        <input type="text" class="common__input">
+                                    </div>
+                                    <div class="col-lg-6 review_review">
+                                        <h2>your email*</h2>
+                                        <input type="text" class="common__input">
+                                    </div>
+                                </div>
+                                <div class="your__rating">
+                                    <h4>your rating</h4>
+                                    <span class="rating__star">
+                                        <div id="567" class="ratingbar" data-rating-value="0" data-userid="555">
+                                            <i id="1" class="ratingstar far fa-star"></i>
+                                            <i id="2" class="ratingstar far fa-star"></i>
+                                            <i id="3" class="ratingstar far fa-star"></i>
+                                            <i id="4" class="ratingstar far fa-star"></i>
+                                            <i id="5" class="ratingstar far fa-star"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="row">                                    
+                                    <div class="col-lg-12 review_review">
+                                        <h2>your messege</h2>
+                                        <textarea class="common__input" id="" cols="30" rows="8"></textarea>
+                                    </div>
+                                </div>
+                                <div class="rating__btn">
+                                    <button type="submit" class="common__btn">submit</button>
+                                </div>
+                            </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- ------------add review---------- -->
+                    </div>
                 </div>
                 <!-- ---------3rd content-------------- -->
             </div>

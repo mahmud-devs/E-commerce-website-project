@@ -27,6 +27,21 @@ a {
   text-decoration: none;
 }
 
+.common__heading {
+  font-size: 24px;
+  font-weight: 400 !important;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 35px;
+  line-height: 40px;
+  color: #3D3D3D;
+}
+
+.common__pera {
+  font-size: 15px;
+  line-height: 26px;
+  color: #777;
+}
+
 .common__btn {
   text-transform: capitalize;
   display: inline-block;
@@ -94,6 +109,17 @@ a {
   border-bottom: 1px solid #e0e0e0;
   letter-spacing: -1px;
   text-transform: capitalize;
+}
+
+.main__name {
+  max-width: 100%;
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  color: #3D3D3D;
+  text-transform: capitalize;
+  margin-bottom: 10px;
 }
 
 .common__input {
@@ -364,6 +390,80 @@ a {
   border-bottom: 1px solid #e0e0e0;
   font-size: 20px;
   outline: none;
+}
+
+.ratingstar {
+  font-size: 1.2rem;
+}
+
+.fas.ratingstar {
+  color: #ffbf00;
+}
+
+.far.ratingstar {
+  color: #CCC;
+}
+
+.row .blog__post_main .post__main {
+  position: relative;
+  padding: 21px;
+  border: 1px solid #e0e0e0;
+}
+.row .blog__post_main .post__main::before {
+  top: 16%;
+  left: -10px;
+  border-width: 7.5px 10px 7.5px 0px;
+  border-color: transparent #d1caca transparent rgba(224, 224, 224, 0);
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  transition: 0.2s ease;
+}
+.row .blog__post_main .post__main::after {
+  top: 16%;
+  border-width: 7.5px 10px 7.5px 2px;
+  border-color: transparent #fff transparent rgba(249, 249, 249, 0);
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  transition: 0.2s ease;
+  left: -10px;
+}
+.row .blog__post_main .post__main .post__heading {
+  display: flex;
+  justify-content: space-between;
+}
+.row .blog__post_main .post__main .post__heading .post__heading_main {
+  display: flex;
+}
+.row .blog__post_main .post__main .post__heading .post__heading_main span {
+  color: #777;
+  margin-right: 15px;
+  font-size: 15px;
+}
+.row .blog__post_main .post__main .post__heading .post__heading_main span a {
+  font-size: 15px;
+  color: #59B210;
+  font-weight: 600;
+}
+.row .blog__post_main .post__main .post__heading .post__heading_reply span a {
+  font-size: 16;
+  color: #777;
+  text-transform: capitalize;
+}
+.row .blog__post_main .post__main p {
+  font-size: 16px;
+  padding-top: 20px;
+  color: #777;
+  margin-bottom: 0px;
 }
 
 #banner_alt .banner_alt__menu .container ul li:nth-child(4) .banner_alt__content {
@@ -2067,7 +2167,7 @@ a {
 }
 
 #blog {
-  padding: 0 0 300px 0;
+  padding: 0 0 70px 0;
 }
 #blog .container .row .blog__main .blog__img {
   padding-bottom: 40px;
@@ -2239,6 +2339,52 @@ a {
   color: #777;
   margin-bottom: 0px;
 }
+#blog .container .row .blog__main .blog__comment .reply__main {
+  margin-top: 70px;
+}
+#blog .container .row .blog__main .blog__comment .reply__messege {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+#blog .container .row .blog__side .small__search {
+  margin-bottom: 50px;
+  position: relative;
+}
+#blog .container .row .blog__side .small__search .search__btn {
+  position: absolute;
+  right: 18px;
+  top: 11px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  color: #5D5D5D;
+}
+#blog .container .row .blog__side .blog__side_detail {
+  margin-bottom: 70px;
+}
+#blog .container .row .blog__side .blog__side_categories {
+  margin-bottom: 50px;
+}
+#blog .container .row .blog__side .blog__side_categories ul li {
+  padding: 8px;
+  border-bottom: 1px solid #e0e0e0;
+}
+#blog .container .row .blog__side .blog__side_categories ul li a {
+  display: flex;
+  font-size: 14px;
+  color: #5D5D5D;
+  transition: all linear 0.2s;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+#blog .container .row .blog__side .blog__side_categories ul li a i {
+  font-size: 12px;
+}
+#blog .container .row .blog__side .blog__side_categories ul li a:hover {
+  color: #59B210;
+}
 
 .breadcrum .container ul li:nth-child(5) a {
   color: #59B210;
@@ -2250,6 +2396,10 @@ a {
 
 #banner_alt .banner_alt__main_content .container nav {
   margin-top: 40px;
+}
+
+#banner_alt {
+  padding: 0;
 }
 
 .breadcrum {
@@ -2306,6 +2456,9 @@ a {
 }
 .single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main {
   padding-bottom: 20px;
+}
+.single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main .rating__star {
+  display: inline-block;
 }
 .single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main span {
   margin-right: 30px;
@@ -2441,6 +2594,59 @@ a {
 }
 .main__description .description__tag span .separetor {
   margin: 0 25px;
+}
+.main__description ul li {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.main__description ul li label {
+  width: 100px;
+  font-weight: 700;
+  color: #3D3D3D;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.main__description .post_post {
+  margin-bottom: 30px;
+}
+.main__description .your__review {
+  padding-top: 50px;
+}
+.main__description .your__review h4 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #59B210;
+  margin-bottom: 40px;
+}
+.main__description .your__review form {
+  width: 80%;
+}
+.main__description .your__review form .row .review_review h2 {
+  color: #3D3D3D;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+}
+.main__description .your__review form .your__rating {
+  padding: 30px 0;
+}
+.main__description .your__review form .your__rating h4 {
+  color: #3D3D3D;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.main__description .your__review form .rating__btn {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
 }
 
 #banner .tab-content .row .sale:nth-child(2) .sale__item .sale__tag {

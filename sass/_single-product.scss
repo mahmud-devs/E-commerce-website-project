@@ -32,6 +32,13 @@ $bluegray: #4F6276;
 // -------------breadcrum-----------
 
 
+#banner_alt{
+    padding: 0;
+}
+
+
+
+
 .breadcrum{
     margin-bottom: 30px;
     border-bottom: 1px solid $bordergray;
@@ -89,6 +96,9 @@ $bluegray: #4F6276;
                 .product__info_rating{
                     .rating__main{
                         padding-bottom: 20px;
+                        .rating__star{
+                            display: inline-block;
+                        }
                         span{
                             margin-right: 30px;
                             font-size: 11px;
@@ -237,6 +247,76 @@ $bluegray: #4F6276;
             text-transform: capitalize;
         }
     }
+    ul{
+        li{
+            display: flex;
+            gap: 100px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            border-bottom: 1px solid $bordergray;
+            label{
+                width: 100px;
+                font-weight: 700;
+                color: $black;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+        }
+    }
+    // --------comment part------
+    .post_post{
+        margin-bottom: 30px;
+    }
+    // ----------add review-----------
+    .your__review{
+        padding-top: 50px;
+        h4{
+            font-size: 23px;
+            font-weight: 600;
+            color: $green;
+            margin-bottom: 40px;
+        }
+        form{
+            width: 80%;
+            .row{
+                .review_review{
+                    h2{
+                        color: #3D3D3D;
+                        font-size: 16px;
+                        line-height: 22px;
+                        font-weight: 600 !important;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+            .your__rating{
+                padding: 30px 0;
+                h4{
+                    color: #3D3D3D;
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 600 !important;
+                    text-transform: capitalize;
+                    margin: 0;
+                    margin-bottom: 10px;
+                }
+
+            }
+            .rating__btn{
+                display: flex;
+                justify-content: end;
+                padding-top: 20px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
 }
 
 

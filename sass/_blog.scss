@@ -28,7 +28,7 @@ $bluegray: #4F6276;
 // ---------blog----------
 
 #blog{
-    padding:0 0 300px 0;
+    padding:0 0 70px 0;
     .container{
         .row{
             .blog__main{
@@ -218,6 +218,56 @@ $bluegray: #4F6276;
                                 }
                             }
                        } 
+                    }
+                    .reply__main{
+                        margin-top: 70px;
+                    }
+                    .reply__messege{
+                        margin-top: 45px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+            .blog__side{
+                .small__search{
+                    margin-bottom: 50px;
+                    position: relative;
+                    .search__btn{
+                        position: absolute;
+                        right: 18px;
+                        top: 11px;
+                        font-size: 16px;
+                        background-color: transparent;
+                        border: none;
+                        color: $navtext;
+                    }
+                }
+                .blog__side_detail{
+                    margin-bottom: 70px;
+                }
+                .blog__side_categories{
+                    margin-bottom: 50px;
+                    ul{
+                        li{
+                            padding: 8px;
+                            border-bottom: 1px solid $bordergray;
+                            a{
+                                display: flex;
+                                font-size: 14px;
+                                color: $navtext;
+                                transition: all linear 0.2s;
+                                justify-content: space-between;
+                                align-items: center;
+                                text-transform: capitalize;
+                                font-weight: 700;
+                                i{
+                                    font-size: 12px;
+                                }
+                                &:hover{
+                                    color: $green;
+                                }
+                            }
+                        }
                     }
                 }
             }
