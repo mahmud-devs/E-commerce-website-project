@@ -2385,6 +2385,47 @@ a {
 #blog .container .row .blog__side .blog__side_categories ul li a:hover {
   color: #59B210;
 }
+#blog .container .row .blog__side .blog__side_add {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 45px;
+}
+#blog .container .row .blog__side .blog__side_post {
+  margin-bottom: 50px;
+}
+#blog .container .row .blog__side .blog__side_post ul li {
+  margin-bottom: 20px;
+}
+#blog .container .row .blog__side .blog__side_post ul li img {
+  border: 1px solid #e0e0e0;
+}
+#blog .container .row .blog__side .blog__side_post ul li .post__detail {
+  padding: 0;
+}
+#blog .container .row .blog__side .blog__side_post ul li .post__detail a {
+  font-size: 15px;
+  line-height: 16px;
+  color: #3D3D3D;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+  display: block;
+  margin-top: 10px;
+}
+#blog .container .row .blog__side .blog__side_post ul li .post__detail p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #777;
+  font-weight: 600;
+}
+#blog .container .row .blog__side .blog__side_tag .tagcloud a {
+  color: #5D5D5D;
+  line-height: 38px;
+  text-transform: capitalize;
+  transition: all linear 0.2s;
+}
+#blog .container .row .blog__side .blog__side_tag .tagcloud a:hover {
+  color: #59B210;
+}
 
 .breadcrum .container ul li:nth-child(5) a {
   color: #59B210;
