@@ -114,6 +114,7 @@ a{
         text-transform: capitalize;
         display: block;
         text-align: left;
+        width: 200px !important;
         &::after{
             content: "";
             width: 0 !important;
@@ -539,3 +540,10 @@ a{
         }
     }
 }
+
+
+
+
+
+
+

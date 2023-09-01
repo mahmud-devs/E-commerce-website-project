@@ -1,0 +1,85 @@
+$(document).ready(function () {
+    $('.setting').click(function () {
+        $('.color').toggleClass('activate');
+        $('.setting').toggleClass('activation');
+        $('.color__main').toggleClass('group');
+        
+    });
+});
+
+$(function(){
+   $('#green').click(green);
+   $('#blue').click(blue);    
+   $('#red').click(red);
+   $('#navy').click(navy);
+   $('#purple').click(purple);
+
+
+   function green() {
+   $('body').attr('class', 'green');
+   }
+   function blue() {
+   $('body').attr('class', 'blue');
+   }    
+   function red() {
+   $('body').attr('class', 'red');
+   }
+   function navy() {
+   $('body').attr('class', 'navy');
+   }
+   function purple() {
+   $('body').attr('class', 'purple');
+   }
+
+
+   $("#green").click(function(){
+        $(".logo__img").attr("src" , "images/logo1.png")
+    
+    })
+    // ----------blue---------
+   $("#blue").click(function(){
+        $(".logo__img").attr("src" , "images/logo2.png")
+    
+    })
+    // -----------red-----
+   $("#red").click(function(){
+        $(".logo__img").attr("src" , "images/logo3.png")
+    
+    })
+    // --------------navy-----------
+   $("#navy").click(function(){
+        $(".logo__img").attr("src" , "images/logo4.png")
+    
+    })
+
+
+    
+
+
+
+
+ 
+});
+
+
+$(function(){
+   // bottom to top
+   $(".bottom_to_top").click(function(){
+       $("body,html").animate({scrollTop:0},1000)
+   });
+   $(window).scroll(function(){
+       let scroll = $(this).scrollTop()
+       console.log(scroll);
+       if(scroll > 800){
+           $(".bottom_to_top").fadeIn(600)
+       }else{
+           $(".bottom_to_top").fadeOut(600)
+       }
+       // if(scroll > 200){
+       //     $(".nav").addClass("fixed")
+       // }else{
+       //     $(".nav").removeClass("fixed")
+       // }
+   })
+
+});

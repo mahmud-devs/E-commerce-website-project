@@ -1,0 +1,321 @@
+$green: #59B210 ;
+$blue: #3498db ;
+$red: #e74c3c;
+$orange: #F27A24;
+$navy: #34495E;
+$darkgreen: #21b68e;
+$navtext: #5D5D5D;
+$black: #3D3D3D;
+$textblue: #0E53A5;
+$bordergray: #e0e0e0;
+$gray: #F9F9F9;
+$white : #fff;
+$darkgray: #dddada;
+$perablack: #777 ;
+$redgray: #4F6276;
+
+
+// --------color switcher------
+
+.color__main{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    transition: all linear 0.3s;
+    .color{
+        background-color: $gray;
+        border: 1px solid $black;
+        padding: 12px;
+        .color_inside{
+            padding-bottom: 10px;
+            h4{
+                text-transform: capitalize;
+                font-size: 22px;
+                font-weight: 700
+                ;
+            }
+            ul{            
+                li{
+                    width: 150px;
+                    padding: 3px 5px;
+                    transition: all linear 0.2s;
+                    text-transform: capitalize;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #F27A24;
+                        color: $white;
+                    }
+                }
+            }
+        }        
+    }
+    .setting{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: aqua;
+    }
+}
+
+.activation{
+    
+}
+
+.group{
+    left: -150px !important;
+    transition: all linear 0.3s;
+}
+
+
+
+// --------------blue------------
+
+.blue{
+    #header .container .row .search .header__search_wrapper .header__info a i {
+        color: $blue;
+    }
+
+    .dropdown {
+        border-top: 1px solid $blue !important;
+        li{
+            a{
+                &:hover{
+                    color: $blue !important;
+                }
+            }
+        }
+        
+    }
+
+    #nav .container .nav__wrapper .nav__wrapper_content_1 ul li a:hover {
+        color: $blue;
+    }
+
+    #header .container .row .cart .cart__icon .popup {
+        background-color: $blue;
+    }
+
+
+    #header .container .row .cart .cart__price a span {
+        color: $blue;
+    }
+
+    #header .container .row .search .header__search_wrapper .header__search .btn {
+	    background-color: $blue;
+	    border: 5px solid $blue;
+
+    }
+
+    #banner .row .banner__menu .banner__menu_head {
+        background-color: $blue;
+    }
+
+    #banner .row .banner__menu .banner__menu_list ul li:hover {
+        background-color: $blue;
+    }
+
+    .common__btn{
+        background-color: $blue !important;
+    }
+
+    #banner .row .banner__content .slick__slider .slick-dots li:hover {
+        background-color: $blue;
+    }
+
+    #banner .more__products .products a:hover {
+        color: $blue;
+    }
+
+    #banner .row .banner__content .slick__slider .slick-dots .slick-active {
+        background: $blue;
+    }
+
+    #banner nav #nav-tab .nav-link.active {
+        background-color: $blue;
+    }
+
+    #banner .more__products .products a:hover span {
+        background-color: $blue;
+    }
+
+    #seller .container .seller__wrapper .seller__small_content .small__content_wrapper .small__content .small__content_detail h2:hover {
+        color: $blue;
+    }
+
+    #seller .container .seller__wrapper .seller__big_content .big__content_img_main .big__img_detail h2:hover {
+        color: $blue;
+    }
+
+    #recent .container .recent__wrapper .recent__content_slider .slick-next:hover {
+        color: $blue;
+    }
+
+    #brand .container .brand__wrapper .brand__slider .slick-next:hover {
+        color: $blue;
+    }
+
+
+    #featured .container .row .featured__product .featured__product_heading h2 {
+        color: $blue;
+    }
+
+    #featured .container .row .featured__product .featured__product_main .product__main_detail a:hover {
+        color: $blue;
+    }
+
+    #footer .container .footer__wrapper .footer__search .footer__btn {
+        background-color: $blue;
+    }
+
+    #footer .container .footer__wrapper .footer__logo_main .footer__icon a:hover {
+        background-color: $blue;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+// --------------red------------
+
+
+
+
+
+
+
+.red{
+    #header .container .row .search .header__search_wrapper .header__info a i {
+        color: $red;
+    }
+
+    .dropdown {
+        border-top: 1px solid $red !important;
+        li{
+            a{
+                &:hover{
+                    color: $red !important;
+                }
+            }
+        }
+        
+    }
+
+    #nav .container .nav__wrapper .nav__wrapper_content_1 ul li a:hover {
+        color: $red;
+    }
+
+
+
+    #header .container .row .cart .cart__icon .popup {
+        background-color: $red;
+    }
+
+
+    #header .container .row .cart .cart__price a span {
+        color: $red;
+    }
+
+    #header .container .row .search .header__search_wrapper .header__search .btn {
+	    background-color: $red;
+	    border: 5px solid $red;
+
+    }
+
+    #banner .row .banner__menu .banner__menu_head {
+        background-color: $red;
+    }
+
+    #banner .row .banner__menu .banner__menu_list ul li:hover {
+        background-color: $red;
+    }
+
+    .common__btn{
+        background-color: $red !important;
+    }
+
+    #banner .row .banner__content .slick__slider .slick-dots li:hover {
+        background-color: $red;
+    }
+
+    #banner .more__products .products a:hover {
+        color: $red;
+    }
+
+    #banner .row .banner__content .slick__slider .slick-dots .slick-active {
+        background: $red;
+    }
+
+    #banner nav #nav-tab .nav-link.active {
+        background-color: $red;
+    }
+
+    #banner .more__products .products a:hover span {
+        background-color: $red;
+    }
+
+    #seller .container .seller__wrapper .seller__small_content .small__content_wrapper .small__content .small__content_detail h2:hover {
+        color: $red;
+    }
+
+    #seller .container .seller__wrapper .seller__big_content .big__content_img_main .big__img_detail h2:hover {
+        color: $red;
+    }
+
+    #recent .container .recent__wrapper .recent__content_slider .slick-next:hover {
+        color: $red;
+    }
+
+    #brand .container .brand__wrapper .brand__slider .slick-next:hover {
+        color: $red;
+    }
+
+
+    #featured .container .row .featured__product .featured__product_heading h2 {
+        color: $red;
+    }
+
+    #featured .container .row .featured__product .featured__product_main .product__main_detail a:hover {
+        color: $red;
+    }
+
+    #footer .container .footer__wrapper .footer__search .footer__btn {
+        background-color: $red;
+    }
+
+    #footer .container .footer__wrapper .footer__logo_main .footer__icon a:hover {
+        background-color: $red;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
