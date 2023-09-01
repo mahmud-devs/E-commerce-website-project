@@ -395,6 +395,10 @@ $redgray: #4F6276;
         color: $blue;
     }
 
+    #frequent .container .frequent__question ul li p .btn-primary:hover {
+         color: $blue; 
+    }
+
     // ---------------404----------
 
     #found .container .found__main h1 {
@@ -665,6 +669,10 @@ $redgray: #4F6276;
         color: $red;
     }
 
+    #frequent .container .frequent__question ul li p .btn-primary:hover {
+         color: $red !important; 
+    }
+
     // ---------------404----------
 
     #found .container .found__main h1 {
@@ -928,6 +936,10 @@ $redgray: #4F6276;
 
     #frequent .container .frequent__question ul li p .btn-primary:hover::after {
         color: $navy;
+    }
+
+    #frequent .container .frequent__question ul li p .btn-primary:hover {
+        color: $navy; 
     }
 
     // ---------------404----------
