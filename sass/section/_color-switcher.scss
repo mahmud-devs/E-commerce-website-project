@@ -41,11 +41,6 @@ $redgray: #4F6276;
                     padding: 3px 5px;
                     transition: all linear 0.2s;
                     text-transform: capitalize;
-                    &:hover{
-                        cursor: pointer;
-                        background-color: #F27A24;
-                        color: $white;
-                    }
                 }
             }
         }        
@@ -54,19 +49,99 @@ $redgray: #4F6276;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
-        height: 40px;
-        background-color: aqua;
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        i{
+            color: $green;
+            font-size: 29px;
+        }
     }
 }
 
-.activation{
-    
-}
+
+
+
 
 .group{
-    left: -150px !important;
+    left: -177px !important;
     transition: all linear 0.3s;
+}
+
+
+// ------------color btn---------
+
+#green{
+    color: $green;
+    &:hover{
+        background-color: $green;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+#blue{
+    color: $blue;
+    &:hover{
+        background-color: $blue;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+#red{
+    color: $red;
+    &:hover{
+        background-color: $red;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+#navy{
+    color: $navy;
+    &:hover{
+        background-color: $navy;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+
+#green1{
+    color: $green !important;
+    &:hover{
+        background-color: $green !important;
+        color: $white !important;
+        cursor: pointer !important;
+    }
+}
+
+#blue1{
+    color: $blue !important;
+    &:hover{
+        background-color: $blue !important;
+        color: $white !important;
+        cursor: pointer !important;
+    }
+}
+
+#red1{
+    color: $red !important;
+    &:hover{
+        background-color: $red !important;
+        color: $white !important;
+        cursor: pointer !important;
+    }
+}
+
+#navy1{
+    color: $navy !important;
+    &:hover{
+        background-color: $navy !important;
+        color: $white !important;
+        cursor: pointer !important;
+    }
 }
 
 
@@ -77,6 +152,17 @@ $redgray: #4F6276;
     #header .container .row .search .header__search_wrapper .header__info a i {
         color: $blue;
     }
+
+    .color__main .setting i {
+        color: $blue;
+    }
+
+
+
+    #wishlist .container .wishlist__content .out__btn {
+        background-color: #dddada !important;
+    }
+
 
     .dropdown {
         border-top: 1px solid $blue !important;
@@ -177,11 +263,22 @@ $redgray: #4F6276;
     // ---------------------home alt---------------
 
     #banner_alt .banner_alt__menu {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
+    #banner_alt .banner_alt__menu .container ul li:hover {
+        background-color: #0e289b;
+    }
+
+    #banner_alt .banner_alt__menu .container ul li .banner_alt__content .row .laptop h2 {
+        color: $blue;
+    }
+
+
+
+
     #banner_alt .banner_alt__menu .container ul li .banner_alt__content {
-        border-top: 1px solid #59B210;
+        border-top: 1px solid $blue;
     }
 
     #banner_alt .banner_alt__menu .container ul .alt__li::after {
@@ -189,15 +286,15 @@ $redgray: #4F6276;
     }
 
     #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots .slick-active {
-        background: #59B210;
+        background: $blue;
     }
 
     #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots li:hover {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
     #banner_alt .banner_alt__main_content .container nav #nav-tab .nav-link.active {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
     .sale__detail h6 {
@@ -205,18 +302,18 @@ $redgray: #4F6276;
     }
 
     #banner_alt .banner_alt__main_content .container .more__products .products a:hover {
-        color: #59B210;
+        color: $blue;
     }
 
     #banner_alt .banner_alt__main_content .container .more__products .products a:hover span {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
 
     // ----------------single product-------------
 
     .single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main span a {
-        color: #59B210;
+        color: $blue;
     }
 
     .nav-link.active {
@@ -224,15 +321,15 @@ $redgray: #4F6276;
     }
 
     .main__description .description__tag span a {
-        color: #59B210;
+        color: $blue;
     }
 
     .row .blog__post_main .post__main .post__heading .post__heading_main span a {
-        color: #59B210;
+        color: $blue;
     }
 
     .main__description .your__review h4 {
-        color: #59B210;
+        color: $blue;
     }
 
 
@@ -243,59 +340,59 @@ $redgray: #4F6276;
     }
 
     #cart .container .cart__wrapper .cart__detail_main .cart__coupon .coupon__search a {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
 
     // --------------register-------------
 
     #register .container .row .register__sign_up .sign_up__today ul li i {
-        color: #59B210;
+        color: $blue;
     }
 
     // ---------------contact----------
 
     #messege .container .row .messege__info .info__heading p a {
-        color: #59B210;
+        color: $blue;
     }
 
     // -----------------about us----------------
 
     #we-do .container .row .we-do__content .content__icon {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
     // ---------------blog------------
 
     .slick__slider .slick-dots .slick-active {
-        background: #59B210;
+        background: $blue;
     }
 
     .slick__slider .slick-dots li:hover {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
     #blog .container .row .blog__main .blog__tag span a {
-        color: #59B210;
+        color: $blue;
     }
 
     #blog .container .row .blog__main .blog__comment .row .post_post .row .blog__post_main .post__main .post__heading .post__heading_main span a {
-        color: #59B210;
+        color: $blue;
     }
 
     #blog .container .row .blog__side .blog__side_categories ul li a:hover {
-        color: #59B210;
+        color: $blue;
     }
 
     #blog .container .row .blog__side .blog__side_tag .tagcloud a:hover {
-        color: #59B210;
+        color: $blue;
     }
 
 
     // ----------------FAQ-----------------
 
     #frequent .container .frequent__question ul li p .btn-primary:hover::after {
-        color: #59B210;
+        color: $blue;
     }
 
     // ---------------404----------
@@ -305,22 +402,14 @@ $redgray: #4F6276;
     }
 
     #found .container .found__main .found__search .found__btn {
-        background-color: #59B210;
+        background-color: $blue;
     }
 
     #found .container .found__main div a:hover {
-        color: #59B210;
+        color: $blue;
     }
 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -331,13 +420,18 @@ $redgray: #4F6276;
 
 
 
-
-
-
-
 .red{
     #header .container .row .search .header__search_wrapper .header__info a i {
         color: $red;
+    }
+
+    .color__main .setting i {
+        color: $red;
+    }
+
+
+    #wishlist .container .wishlist__content .out__btn {
+        background-color: #dddada !important;
     }
 
     .dropdown {
@@ -355,8 +449,6 @@ $redgray: #4F6276;
     #nav .container .nav__wrapper .nav__wrapper_content_1 ul li a:hover {
         color: $red;
     }
-
-
 
     #header .container .row .cart .cart__icon .popup {
         background-color: $red;
@@ -438,19 +530,436 @@ $redgray: #4F6276;
         background-color: $red;
     }
 
+    // ---------------------home alt---------------
+
+    #banner_alt .banner_alt__menu {
+        background-color: $red;
+    }
+
+    #banner_alt .banner_alt__menu .container ul li .banner_alt__content {
+        border-top: 1px solid $red;
+    }
+
+    #banner_alt .banner_alt__menu .container ul li:hover {
+        background-color: #9b0e0e;
+    }
+
+
+    #banner_alt .banner_alt__menu .container ul li .banner_alt__content .row .laptop h2 {
+        color: $red;
+    }
 
 
 
+    #banner_alt .banner_alt__menu .container ul .alt__li::after {
+        border-bottom: 10px solid #4d9b0e;
+    }
+
+    #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots .slick-active {
+        background: $red;
+    }
+
+    #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots li:hover {
+        background-color: $red;
+    }
+
+    #banner_alt .banner_alt__main_content .container nav #nav-tab .nav-link.active {
+        background-color: $red;
+    }
+
+    .sale__detail h6 {
+        background-color: $red !important;
+    }
+
+    #banner_alt .banner_alt__main_content .container .more__products .products a:hover {
+        color: $red;
+    }
+
+    #banner_alt .banner_alt__main_content .container .more__products .products a:hover span {
+        background-color: $red;
+    }
+
+
+    // ----------------single product-------------
+
+    .single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main span a {
+        color: $red;
+    }
+
+    .nav-link.active {
+        background-color: $red !important;
+    }
+
+    .main__description .description__tag span a {
+        color: $red;
+    }
+
+    .row .blog__post_main .post__main .post__heading .post__heading_main span a {
+        color: $red;
+    }
+
+    .main__description .your__review h4 {
+        color: $red;
+    }
+
+
+    // ---------------cart-------------
+
+    .shop-by__department a {
+        background-color: $red !important;
+    }
+
+    #cart .container .cart__wrapper .cart__detail_main .cart__coupon .coupon__search a {
+        background-color: $red;
+    }
+
+
+    // --------------register-------------
+
+    #register .container .row .register__sign_up .sign_up__today ul li i {
+        color: $red;
+    }
+
+    // ---------------contact----------
+
+    #messege .container .row .messege__info .info__heading p a {
+        color: $red;
+    }
+
+    // -----------------about us----------------
+
+    #we-do .container .row .we-do__content .content__icon {
+        background-color: $red;
+    }
+
+    // ---------------blog------------
+
+    .slick__slider .slick-dots .slick-active {
+        background: $red;
+    }
+
+    .slick__slider .slick-dots li:hover {
+        background-color: $red;
+    }
+
+    #blog .container .row .blog__main .blog__tag span a {
+        color: $red;
+    }
+
+    #blog .container .row .blog__main .blog__comment .row .post_post .row .blog__post_main .post__main .post__heading .post__heading_main span a {
+        color: $red;
+    }
+
+    #blog .container .row .blog__side .blog__side_categories ul li a:hover {
+        color: $red;
+    }
+
+    #blog .container .row .blog__side .blog__side_tag .tagcloud a:hover {
+        color: $red;
+    }
+
+
+    // ----------------FAQ-----------------
+
+    #frequent .container .frequent__question ul li p .btn-primary:hover::after {
+        color: $red;
+    }
+
+    // ---------------404----------
+
+    #found .container .found__main h1 {
+        color: $red;
+    }
+
+    #found .container .found__main .found__search .found__btn {
+        background-color: $red;
+    }
+
+    #found .container .found__main div a:hover {
+        color: $red;
+    }
+
+}
+
+
+// ----------------navy------------
+
+.navy{
+    #header .container .row .search .header__search_wrapper .header__info a i {
+        color: $navy;
+    }
+
+    #wishlist .container .wishlist__content .out__btn {
+        background-color: #dddada !important;
+    }
+
+    .color__main .setting i {
+        color:$navy;
+    }
 
 
 
+    .dropdown {
+        border-top: 1px solid $navy !important;
+        li{
+            a{
+                &:hover{
+                    color: $navy !important;
+                }
+            }
+        }
+        
+    }
+
+    #nav .container .nav__wrapper .nav__wrapper_content_1 ul li a:hover {
+        color: $navy;
+    }
+
+    #header .container .row .cart .cart__icon .popup {
+        background-color: $navy;
+    }
 
 
+    #header .container .row .cart .cart__price a span {
+        color: $navy;
+    }
+
+    #header .container .row .search .header__search_wrapper .header__search .btn {
+	    background-color: $navy;
+	    border: 5px solid $navy;
+
+    }
+
+    #banner .row .banner__menu .banner__menu_head {
+        background-color: $navy;
+    }
+
+    #banner .row .banner__menu .banner__menu_list ul li:hover {
+        background-color: $navy;
+    }
+
+    .common__btn{
+        background-color: $navy !important;
+    }
+
+    #banner .row .banner__content .slick__slider .slick-dots li:hover {
+        background-color: $navy;
+    }
+
+    #banner .more__products .products a:hover {
+        color: $navy;
+    }
+
+    #banner .row .banner__content .slick__slider .slick-dots .slick-active {
+        background: $navy;
+    }
+
+    #banner nav #nav-tab .nav-link.active {
+        background-color: $navy;
+    }
+
+    #banner .more__products .products a:hover span {
+        background-color: $navy;
+    }
+
+    #seller .container .seller__wrapper .seller__small_content .small__content_wrapper .small__content .small__content_detail h2:hover {
+        color: $navy;
+    }
+
+    #seller .container .seller__wrapper .seller__big_content .big__content_img_main .big__img_detail h2:hover {
+        color: $navy;
+    }
+
+    #recent .container .recent__wrapper .recent__content_slider .slick-next:hover {
+        color: $navy;
+    }
+
+    #brand .container .brand__wrapper .brand__slider .slick-next:hover {
+        color: $navy;
+    }
+
+
+    #featured .container .row .featured__product .featured__product_heading h2 {
+        color: $navy;
+    }
+
+    #featured .container .row .featured__product .featured__product_main .product__main_detail a:hover {
+        color: $navy;
+    }
+
+    #footer .container .footer__wrapper .footer__search .footer__btn {
+        background-color: $navy;
+    }
+
+    #footer .container .footer__wrapper .footer__logo_main .footer__icon a:hover {
+        background-color: $navy;
+    }
+
+    // ---------------------home alt---------------
+
+    #banner_alt .banner_alt__menu {
+        background-color: $navy;
+    }
+
+    #banner_alt .banner_alt__menu .container ul li:hover {
+        background-color: #01061b;
+    }
+
+
+    #banner_alt .banner_alt__menu .container ul li .banner_alt__content .row .laptop h2 {
+        color: $navy;
+    }
+
+
+
+    #banner_alt .banner_alt__menu .container ul li .banner_alt__content {
+        border-top: 1px solid $navy;
+    }
+
+    #banner_alt .banner_alt__menu .container ul .alt__li::after {
+        border-bottom: 10px solid #4d9b0e;
+    }
+
+    #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots .slick-active {
+        background: $navy;
+    }
+
+    #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots li:hover {
+        background-color: $navy;
+    }
+
+    #banner_alt .banner_alt__main_content .container nav #nav-tab .nav-link.active {
+        background-color: $navy;
+    }
+
+    .sale__detail h6 {
+        background-color: $navy !important;
+    }
+
+    #banner_alt .banner_alt__main_content .container .more__products .products a:hover {
+        color: $navy;
+    }
+
+    #banner_alt .banner_alt__main_content .container .more__products .products a:hover span {
+        background-color: $navy;
+    }
+
+
+    // ----------------single product-------------
+
+    .single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main span a {
+        color: $navy;
+    }
+
+    .nav-link.active {
+        background-color: $navy !important;
+    }
+
+    .main__description .description__tag span a {
+        color: $navy;
+    }
+
+    .row .blog__post_main .post__main .post__heading .post__heading_main span a {
+        color: $navy;
+    }
+
+    .main__description .your__review h4 {
+        color: $navy;
+    }
+
+
+    // ---------------cart-------------
+
+    .shop-by__department a {
+        background-color: $navy !important;
+    }
+
+    #cart .container .cart__wrapper .cart__detail_main .cart__coupon .coupon__search a {
+        background-color: $navy;
+    }
+
+
+    // --------------register-------------
+
+    #register .container .row .register__sign_up .sign_up__today ul li i {
+        color: $navy;
+    }
+
+    // ---------------contact----------
+
+    #messege .container .row .messege__info .info__heading p a {
+        color: $navy;
+    }
+
+    // -----------------about us----------------
+
+    #we-do .container .row .we-do__content .content__icon {
+        background-color: $navy;
+    }
+
+    // ---------------blog------------
+
+    .slick__slider .slick-dots .slick-active {
+        background: $navy;
+    }
+
+    .slick__slider .slick-dots li:hover {
+        background-color: $navy;
+    }
+
+    #blog .container .row .blog__main .blog__tag span a {
+        color: $navy;
+    }
+
+    #blog .container .row .blog__main .blog__comment .row .post_post .row .blog__post_main .post__main .post__heading .post__heading_main span a {
+        color: $navy;
+    }
+
+    #blog .container .row .blog__side .blog__side_categories ul li a:hover {
+        color: $navy;
+    }
+
+    #blog .container .row .blog__side .blog__side_tag .tagcloud a:hover {
+        color: $navy;
+    }
+
+
+    // ----------------FAQ-----------------
+
+    #frequent .container .frequent__question ul li p .btn-primary:hover::after {
+        color: $navy;
+    }
+
+    // ---------------404----------
+
+    #found .container .found__main h1 {
+        color: $navy;
+    }
+
+    #found .container .found__main .found__search .found__btn {
+        background-color: $navy;
+    }
+
+    #found .container .found__main div a:hover {
+        color: $navy;
+    }
 
 }
 
 
 
+
+
+
+
+// ----------------orange--------------
+
+
+
+
+
+
+// -------------------dark green---------
 
 
 

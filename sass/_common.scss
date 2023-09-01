@@ -59,7 +59,9 @@ a{
     color: $perablack;
 }
 
-
+.sale__detail h6 {
+	color: white !important;
+}
 
 
 
@@ -131,6 +133,11 @@ a{
         }
     }
 }
+
+.shop-by__department > ul:nth-child(2) > li > a{
+    background-color: transparent !important;
+}
+
 
 // --------dropdown-------------
 
