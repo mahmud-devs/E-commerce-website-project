@@ -115,6 +115,9 @@ a{
         display: block;
         text-align: left;
         width: 200px !important;
+        &:hover{
+            cursor: pointer;
+        }
         &::after{
             content: "";
             width: 0 !important;

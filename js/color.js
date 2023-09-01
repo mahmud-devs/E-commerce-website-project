@@ -7,6 +7,10 @@ $(document).ready(function () {
     });
 });
 
+
+// -------------color--------
+
+
 $(function(){
    $('#green').click(green);
    $('#blue').click(blue);    
@@ -60,6 +64,73 @@ $(function(){
 
  
 });
+
+
+// ---------color 1------
+$(function(){
+    $('#green1').click(green1);
+    $('#blue1').click(blue1);    
+    $('#red1').click(red1);
+    $('#navy1').click(navy1);
+    $('#purple1').click(purple1);
+ 
+ 
+    function green1() {
+    $('body').attr('class', 'green');
+    }
+    function blue1() {
+    $('body').attr('class', 'blue');
+    }    
+    function red1() {
+    $('body').attr('class', 'red');
+    }
+    function navy1() {
+    $('body').attr('class', 'navy');
+    }
+    function purple1() {
+    $('body').attr('class', 'purple');
+    }
+ 
+ 
+    $("#green1").click(function(){
+         $(".logo__img").attr("src" , "images/logo1.png")
+     
+     })
+     // ----------blue---------
+    $("#blue1").click(function(){
+         $(".logo__img").attr("src" , "images/logo2.png")
+     
+     })
+     // -----------red-----
+    $("#red1").click(function(){
+         $(".logo__img").attr("src" , "images/logo3.png")
+     
+     })
+     // --------------navy-----------
+    $("#navy1").click(function(){
+         $(".logo__img").attr("src" , "images/logo4.png")
+     
+     })
+ 
+ 
+     
+ 
+ 
+ 
+ 
+  
+ });
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 $(function(){
