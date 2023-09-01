@@ -2809,6 +2809,93 @@ a {
 .blue #footer .container .footer__wrapper .footer__logo_main .footer__icon a:hover {
   background-color: #3498db;
 }
+.blue #banner_alt .banner_alt__menu {
+  background-color: #59B210;
+}
+.blue #banner_alt .banner_alt__menu .container ul li .banner_alt__content {
+  border-top: 1px solid #59B210;
+}
+.blue #banner_alt .banner_alt__menu .container ul .alt__li::after {
+  border-bottom: 10px solid #4d9b0e;
+}
+.blue #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots .slick-active {
+  background: #59B210;
+}
+.blue #banner_alt .banner_alt__slider .container .row .banner__content .slick__slider .slick-dots li:hover {
+  background-color: #59B210;
+}
+.blue #banner_alt .banner_alt__main_content .container nav #nav-tab .nav-link.active {
+  background-color: #59B210;
+}
+.blue .sale__detail h6 {
+  background-color: #3498db !important;
+}
+.blue #banner_alt .banner_alt__main_content .container .more__products .products a:hover {
+  color: #59B210;
+}
+.blue #banner_alt .banner_alt__main_content .container .more__products .products a:hover span {
+  background-color: #59B210;
+}
+.blue .single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main span a {
+  color: #59B210;
+}
+.blue .nav-link.active {
+  background-color: #3498db !important;
+}
+.blue .main__description .description__tag span a {
+  color: #59B210;
+}
+.blue .row .blog__post_main .post__main .post__heading .post__heading_main span a {
+  color: #59B210;
+}
+.blue .main__description .your__review h4 {
+  color: #59B210;
+}
+.blue .shop-by__department a {
+  background-color: #3498db !important;
+}
+.blue #cart .container .cart__wrapper .cart__detail_main .cart__coupon .coupon__search a {
+  background-color: #59B210;
+}
+.blue #register .container .row .register__sign_up .sign_up__today ul li i {
+  color: #59B210;
+}
+.blue #messege .container .row .messege__info .info__heading p a {
+  color: #59B210;
+}
+.blue #we-do .container .row .we-do__content .content__icon {
+  background-color: #59B210;
+}
+.blue .slick__slider .slick-dots .slick-active {
+  background: #59B210;
+}
+.blue .slick__slider .slick-dots li:hover {
+  background-color: #59B210;
+}
+.blue #blog .container .row .blog__main .blog__tag span a {
+  color: #59B210;
+}
+.blue #blog .container .row .blog__main .blog__comment .row .post_post .row .blog__post_main .post__main .post__heading .post__heading_main span a {
+  color: #59B210;
+}
+.blue #blog .container .row .blog__side .blog__side_categories ul li a:hover {
+  color: #59B210;
+}
+.blue #blog .container .row .blog__side .blog__side_tag .tagcloud a:hover {
+  color: #59B210;
+}
+.blue #frequent .container .frequent__question ul li p .btn-primary:hover::after {
+  color: #59B210;
+}
+.blue #found .container .found__main h1 {
+  color: #3498db;
+}
+.blue #found .container .found__main .found__search .found__btn {
+  background-color: #59B210;
+}
+.blue #found .container .found__main div a:hover {
+  color: #59B210;
+}
 
 .red #header .container .row .search .header__search_wrapper .header__info a i {
   color: #e74c3c;
