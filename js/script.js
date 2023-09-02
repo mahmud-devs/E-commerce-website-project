@@ -95,6 +95,14 @@ $(function(){
               autoplay: false,
               autoplaySpeed: 2500,
             }
+          },
+          {
+            breakpoint: 1399,
+            settings: {
+              slidesToShow: 5,
+              autoplay: false,
+              autoplaySpeed: 2500,
+            }
           }
         ]
     });
@@ -148,6 +156,14 @@ $(function(){
             breakpoint: 1199,
             settings: {
               slidesToShow: 4,
+              autoplay: false,
+              autoplaySpeed: 2500,
+            }
+          },
+          {
+            breakpoint: 1399,
+            settings: {
+              slidesToShow: 5,
               autoplay: false,
               autoplaySpeed: 2500,
             }

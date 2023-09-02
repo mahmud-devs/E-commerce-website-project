@@ -2402,6 +2402,50 @@ li.dropdown_main:nth-child(6) > ul:nth-child(2){
 
 
 
+/* ==================extra larg============= */
+
+@media (min-width:1200px) and (max-width:1399.98px){
+
+
+    #banner .row .banner__menu .banner__menu_head {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    #banner .row .banner__content .slick__slider .slider__content_1 .content__detail {
+        padding: 50px 0 29px 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
