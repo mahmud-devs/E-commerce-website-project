@@ -23,6 +23,7 @@ $redgray: #4F6276;
     left: 0px;
     display: flex;
     transition: all linear 0.3s;
+    z-index: 99999;
     .color{
         background-color: $gray;
         border: 1px solid $black;

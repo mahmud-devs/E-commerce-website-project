@@ -18,9 +18,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- --------main css---------------- -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- ------------------responsive css---------------- -->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-    
+
     <!-- ------------------nav start here------------------ -->
     <nav id="nav">
         <div class="container">
@@ -45,7 +47,7 @@
                         <li>
                             <a href="./pages/faq.html">FAQ</a>
                         </li>
-                        <li> 
+                        <li>
                             <a href="./pages/contact.html">contact</a>
                         </li>
                         <li class="dropdown_main">
@@ -63,7 +65,6 @@
                                 <li><a href="./pages/checkout.html">checkout</a></li>
                                 <li><a href="./pages/blog.html">blog</a></li>
                                 <li><a href="./pages/wishlist.html">wishlist</a></li>
-                                <li><a href="#">single_product_with_sidebar</a></li>
                                 <li><a href="./pages/faq.html">FAQ</a></li>
                                 <li><a href="./pages/404.html">404</a></li>
                                 <li><a href="#">blog</a></li>
@@ -116,7 +117,7 @@
                 <div class="col-lg-2  logo">
                     <img class="img-fluid logo__img" src="images/logo1.png" alt="img">
                 </div>
-                <div class="col-lg-7 search">
+                <div class="col-12 col-sm-12 col-lg-7 search">
                     <div class="header__search_wrapper">
                         <div class="header__info">
                             <a href="tel:"><span><i class="fa-solid fa-phone"></i></span> +8801996153133</a>
@@ -143,18 +144,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1 list">
+                <div class="col-6 col-sm-6  col-lg-1 list">
                     <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                     <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
                 </div>
-                <div class="col-lg-2 cart">
+                <div class="col-6 col-sm-6  col-lg-2 cart">
                     <div class="cart__icon">
                         <i class="fa-solid fa-cart-flatbed"></i>
                         <div class="popup">3</div>
                     </div>
                     <div class="cart__price">
                         <a href="#"> your cart:
-                            <br> 
+                            <br>
                             <span>$3778,00</span>
                         </a>
                     </div>
@@ -171,7 +172,7 @@
         <div class="container">
             <!-- --------banner menu & slider---------- -->
             <div class="row">
-                <div class="col-lg-2 banner__menu">
+                <div class="col-12  col-lg-2 banner__menu">
                     <div class="banner__menu_head">
                         <i class="fa-solid fa-bars-staggered"></i>
                         all departments
@@ -180,40 +181,40 @@
                         <ul>
                             <li>
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                             <li class="menu_list_li">
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                             <li>
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                             <li class="menu_list_li">
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                             <li>
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                             <li class="menu_list_li">
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                             <li>
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                             <li class="menu_list_li">
                                 <a href="#">pages  <i class="fa-solid fa-chevron-right"></i></a>
-                                
+
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-10 banner__content">
+                <div class="col-12 col-lg-10 banner__content">
                     <div class="slick__slider">
                         <div class="slider__content_1">
                             <div class="content__detail">
@@ -240,14 +241,14 @@
             <!-- --------banner menu & slider---------- -->
             <!-- ----------banner mobile & watch------------ -->
             <div class="row">
-                <div class="col-lg-6 mobile">
+                <div class="col-12 col-lg-6 mobile">
                     <a href="#" class="banner__mobile">
                         <h2>new life</h2>
                         <h4>introducing new category</h4>
                         <img src="images/banner-narrow-01.jpg" alt="img">
                     </a>
                 </div>
-                <div class="col-lg-6 mobile">
+                <div class="col-12 col-lg-6 mobile">
                     <a href="#" class="banner__watch">
                         <h2>time & style</h2>
                         <h4>checkout new arrivels</h4>
@@ -257,7 +258,10 @@
             </div>
             <!-- ----------banner mobile & watch------------ -->
             <!-- -------------navs & tabs----------------- -->
-            <nav data-aos="fade-up" data-aos-delay="100">
+
+            <!-- data-aos="fade-up"  data-aos-delay="100" -->
+
+            <nav  >
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                   <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
                   <button class="nav-link"  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
@@ -266,11 +270,15 @@
             </nav>
             <!-- -------------navs & tabs----------------- -->
             <!-- -------------sale content------------ -->
-            <div class="tab-content" id="nav-tabContent" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- data-aos="fade-up" data-aos-delay="200" -->
+
+
+            <div class="tab-content" id="nav-tabContent" >
                 <!-- ---------1st content-------------- -->
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="row">
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-01.jpg" alt="img">
                                 <div class="sale__detail">
@@ -285,7 +293,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -294,9 +302,9 @@
                                 <div class="sale__tag">
                                     <span>sale</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-02.jpg" alt="img">
                                 <div class="sale__detail">
@@ -311,7 +319,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -320,9 +328,9 @@
                                 <div class="sale__tag">
                                     <span>new!</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-03.jpg" alt="img">
                                 <div class="sale__detail">
@@ -337,15 +345,15 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-04.jpg" alt="img">
                                 <div class="sale__detail">
@@ -360,7 +368,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -372,15 +380,15 @@
                                 <div class="sale__tag_1">
                                     <span>bestseller</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- ---------1st content-------------- -->
                 <!-- ---------2nd content-------------- -->
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <div class="row">                        
-                        <div class="col-lg-3 sale">
+                    <div class="row">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-02.jpg" alt="img">
                                 <div class="sale__detail">
@@ -395,7 +403,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -404,9 +412,9 @@
                                 <div class="sale__tag">
                                     <span>new!</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-01.jpg" alt="img">
                                 <div class="sale__detail">
@@ -421,7 +429,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -430,9 +438,9 @@
                                 <div class="sale__tag">
                                     <span>sale</span>
                                 </div>
-                            </div>                            
-                        </div>                        
-                        <div class="col-lg-3 sale">
+                            </div>
+                        </div>
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-04.jpg" alt="img">
                                 <div class="sale__detail">
@@ -447,7 +455,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -459,9 +467,9 @@
                                 <div class="sale__tag_1">
                                     <span>bestseller</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-03.jpg" alt="img">
                                 <div class="sale__detail">
@@ -476,21 +484,21 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- ---------2nd content-------------- -->
                 <!-- ---------3rd content-------------- -->
                 <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    <div class="row">                        
-                        <div class="col-lg-3 sale">
+                    <div class="row">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-03.jpg" alt="img">
                                 <div class="sale__detail">
@@ -505,15 +513,15 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-04.jpg" alt="img">
                                 <div class="sale__detail">
@@ -528,7 +536,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -540,9 +548,9 @@
                                 <div class="sale__tag_1">
                                     <span>bestseller</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-01.jpg" alt="img">
                                 <div class="sale__detail">
@@ -557,7 +565,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -566,9 +574,9 @@
                                 <div class="sale__tag">
                                     <span>sale</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 sale">
+                        <div class="col-6  col-lg-3 sale">
                             <div class="sale__item">
                                 <img src="images/product-02.jpg" alt="img">
                                 <div class="sale__detail">
@@ -583,7 +591,7 @@
                                 <div class="sale__order">
                                     <div>
                                         <a href="#" class="common__btn">add to cart</a>
-                                    </div>                                    
+                                    </div>
                                     <div class="price__compare">
                                         <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                                         <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
@@ -592,7 +600,7 @@
                                 <div class="sale__tag">
                                     <span>new!</span>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -601,38 +609,11 @@
             <div class="more__products">
                 <div class="products">
                     <a href="#">
-                        <span><i class="fa-solid fa-plus"></i></span>                        
+                        <span><i class="fa-solid fa-plus"></i></span>
                         load more products
                     </a>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     </section>
 
@@ -643,10 +624,17 @@
 
     <section id="seller">
         <div class="container">
-            <div class="seller__heading " data-aos="fade-up" data-aos-delay="50" >
+
+            <!-- data-aos="fade-up" data-aos-delay="50" -->
+
+
+            <div class="seller__heading "  >
                 Best Sellers
             </div>
-            <div class="seller__wrapper" data-aos="fade-up" data-aos-delay="150">
+
+            <!-- data-aos="fade-up" data-aos-delay="150" -->
+
+            <div class="seller__wrapper" >
                 <div class="seller__small_content">
                     <div class="small__content_wrapper">
                         <div class="small__content">
@@ -776,12 +764,12 @@
                             </div>
                             <div class="big__content_img">
                                 <img src="images/big_product-1.jpg" alt="img">
-                            </div>                            
+                            </div>
                         </div>
                         <div class="big__img_detail">
                             <a href="#">
                                 <h2>CPU intel core i5-4670k 3.4GHz BOX <br> B82-12-122-41</h2>
-                            </a>                            
+                            </a>
                             <p>sony</p>
                         </div>
                         <div class="big__img_price">
@@ -801,10 +789,21 @@
 
     <section id="recent">
         <div class="container">
-            <div class="recent__heading" data-aos="fade-up" data-aos-delay="50">
+
+
+            <!-- data-aos="fade-up" data-aos-delay="50" -->
+
+
+            <div class="recent__heading" >
                 <h2>Recently Viewed</h2>
             </div>
-            <div class="recent__wrapper" data-aos="fade-up" data-aos-delay="150">
+
+
+            <!-- data-aos="fade-up" data-aos-delay="150" -->
+
+
+
+            <div class="recent__wrapper" >
                 <div class="recent__content_slider">
                     <div class="recent__content_main">
                         <img src="images/recent-1.jpg" alt="img">
@@ -938,10 +937,19 @@
 
     <section id="brand">
         <div class="container">
-            <div class="brand__heading" data-aos="fade-up" data-aos-delay="50">
+
+            <!-- data-aos="fade-up" data-aos-delay="50" -->
+
+
+
+            <div class="brand__heading" >
                 Top Brands
             </div>
-            <div class="brand__wrapper" data-aos="fade-up" data-aos-delay="150">
+
+            <!-- data-aos="fade-up" data-aos-delay="150" -->
+
+
+            <div class="brand__wrapper" >
                 <div class="brand__slider">
                     <div class="brand__main">
                         <div class="brand__img">
@@ -987,7 +995,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- -------------------------brand end here-------------------- -->
 
 
@@ -996,141 +1004,141 @@
     <section id="featured">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 featured__product">
+                <div class="col-12  col-lg-4 featured__product">
                     <div class=" featured__product_heading">
                         <h2>Featured products</h2>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Netbook Acer Travel B113-E-10072. </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-01.jpg" alt="img" class="img-fluid">
-                            </a>                            
+                            </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-02.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-03.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 featured__product">
+                <div class="col-12  col-lg-4 featured__product">
                     <div class=" featured__product_heading">
                         <h2>On-Sale Products</h2>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">HP Scanner 2910P </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-04.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Galaxy Tab 3 GT-P5210 16GB, Wi-Fi, 10.1in - White</a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-05.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-06.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 featured__product">
+                <div class="col-12  col-lg-4 featured__product">
                     <div class=" featured__product_heading">
                         <h2>Top Rated Products</h2>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Galaxy Tab GT-P5210, 10" 16GB Wi-Fi </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-07.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-08.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Surface RT 64GB, Wi-Fi, 10.6in - Dark Titanium </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
-                            </div>                            
+                            </div>
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-09.jpg" alt="img" class="img-fluid">
                             </a>
@@ -1154,14 +1162,14 @@
 
 
 
-    
+
 
     <!-- ------------------------footer start here---------------------- -->
 
     <section id="footer">
         <div class="container">
             <div class="row footer__wrapper">
-                <div class="col-lg-5 footer__logo_main">
+                <div class="col-12 col-lg-5 footer__logo_main">
                     <div class="footer__logo">
                         <img src="images/logo1.png" alt="img" class="img-fluid logo__img">
                     </div>
@@ -1178,7 +1186,7 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 footer__find">
+                <div class="col-12 col-lg-3 footer__find">
                     <h2>find it fast</h2>
                     <ul>
                         <li><a href="#">laptops & computers</a></li>
@@ -1191,7 +1199,7 @@
                         <li><a href="#">Accesories</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 footer__find">
+                <div class="col-12 col-lg-2 footer__find">
                     <h2>Information</h2>
                     <ul>
                         <li><a href="#">Find a Store</a></li>
@@ -1204,7 +1212,7 @@
                         <li><a href="#">Careers</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 footer__find">
+                <div class="col-12 col-lg-2 footer__find">
                     <h2>find it fast</h2>
                     <ul>
                         <li><a href="#">My Account</a></li>
@@ -1241,7 +1249,7 @@
                         <li><img src="images/payment-master.png" alt="img"></li>
                         <li><img src="images/payment-paypal.png" alt="img"></li>
                         <li><img src="images/payment-skrill.png" alt="img"></li>
-                    </ul>                                                            
+                    </ul>
                 </div>
             </div>
         </div>
@@ -1256,7 +1264,7 @@
 
     <!-- ----------------------color switcher-------------------- -->
 
-    <div class="color__main group">                
+    <div class="color__main group">
         <div class="color activate">
             <div class="color_inside">
                 <h4>header style</h4>
@@ -1269,7 +1277,7 @@
                 <h4>colors</h4>
             <ul >
                 <li id="green">green</li>
-                <li id="blue">blue</li>                        
+                <li id="blue">blue</li>
                 <li id="red">red</li>
                 <li id="navy">navy</li>
             </ul>
@@ -1279,7 +1287,7 @@
             <i class="fa-solid fa-wrench"></i>
         </div>
     </div>
-    
+
 
     <!-- ----------------------color switcher-------------------- -->
 
@@ -1331,6 +1339,6 @@
     <!-- ---------color------------- -->
     <script src="./js/color.js"></script>
 
-    
+
 </body>
 </html>

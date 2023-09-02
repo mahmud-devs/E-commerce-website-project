@@ -85,11 +85,13 @@
         .nav__wrapper{
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
             .nav__wrapper_content_1{
                 ul{
                     display: flex;
                     column-gap: 40px;
                     font-size: 13px;
+                    flex-wrap: wrap;
                     .dropdown_main{
                         &:hover .dropdown{
                             opacity: 1;
@@ -160,6 +162,7 @@
                     display: flex;
                     column-gap: 40px;
                     font-size: 13px;
+                    flex-wrap: wrap;
                     li{
                         position: relative;
                         color: $navtext ;

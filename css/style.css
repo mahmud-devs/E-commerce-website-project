@@ -2708,6 +2708,7 @@ a {
   left: 0px;
   display: flex;
   transition: all linear 0.3s;
+  z-index: 99999;
 }
 .color__main .color {
   background-color: #F9F9F9;
@@ -3392,12 +3393,14 @@ a {
 #nav .container .nav__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 #nav .container .nav__wrapper .nav__wrapper_content_1 ul {
   display: flex;
   -moz-column-gap: 40px;
        column-gap: 40px;
   font-size: 13px;
+  flex-wrap: wrap;
 }
 #nav .container .nav__wrapper .nav__wrapper_content_1 ul .dropdown_main:hover .dropdown {
   opacity: 1;
@@ -3464,6 +3467,7 @@ a {
   -moz-column-gap: 40px;
        column-gap: 40px;
   font-size: 13px;
+  flex-wrap: wrap;
 }
 #nav .container .nav__wrapper .nav__wrapper_content_2 ul li {
   position: relative;
