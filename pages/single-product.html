@@ -18,6 +18,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- --------main css---------------- -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- --------------responsive css--------------------- -->
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 <body>
     
@@ -114,9 +116,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2  logo">
-                    <img class="img-fluid logo__img" src="images/logo1.png" alt="img">
+                    <a href="../index.html">
+                        <img class="img-fluid logo__img" src="images/logo1.png" alt="img">
+                    </a>
                 </div>
-                <div class="col-lg-7 search">
+                <div class="col-12 col-lg-7 search">
                     <div class="header__search_wrapper">
                         <div class="header__info">
                             <a href="tel:"><span><i class="fa-solid fa-phone"></i></span> +8801996153133</a>
@@ -143,11 +147,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1 list">
+                <div class="col-6 col-lg-1 list">
                     <a href="#"><span><i class="fa-solid fa-heart"></i></span> wishlist (24)</a>
                     <a href="#"><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span> compare (4)</a>
                 </div>
-                <div class="col-lg-2 cart">
+                <div class="col-6 col-lg-2 cart">
                     <div class="cart__icon">
                         <i class="fa-solid fa-cart-flatbed"></i>
                         <div class="popup">3</div>
@@ -169,346 +173,354 @@
 
     <section id="banner_alt">
         <!-- --------------banner-alt menu------------- -->
-        <div class="banner_alt__menu">
-            <div class="container">
-                <ul>
-                    <li class="alt__li">
-                        <a href="#">TV & Audio</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="alt__li">
-                        <a href="#">rtv</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
+        <div class="navbar navbar-expand-lg banner_alt__menu">
+            <div class="container-fluid container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="alt__li">
+                            <a href="#">TV & Audio</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="alt__li">
-                        <a href="#">computers</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="alt__li">
-                        <a href="#">games & consoles</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
+                        </li>
+                        <li class="alt__li">
+                            <a href="#">rtv</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="alt__li">
-                        <a href="#">gadgets</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="alt__li">
-                        <a href="#">phones & tablets</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
+                        </li>
+                        <li class="alt__li">
+                            <a href="#">computers</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="alt__li">
-                        <a href="#">GPS & car audio</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="alt__li">
-                        <a href="#">Accessories</a>
-                        <div class="banner_alt__content">
-                            <div class="row">
-                                <div class="col-lg-4 laptop">
-                                    <h2>Laptops & Notebooks</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound </a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Computers & Laptops</h2>
-                                    <ul>
-                                        <li><a href="#">Computer Cases & Accessories</a></li>
-                                        <li><a href="#">CPUs, Processors </a></li>
-                                        <li><a href="#">Fans, Heatsinks & Cooling</a></li>
-                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                        <li><a href="#">Memory (RAM)</a></li>
-                                        <li><a href="#">Motherboards</a></li>
-                                        <li><a href="#">Motherboard & CPU Combos</a></li>
-                                        <li><a href="#">Motherboard Components & Accs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 laptop">
-                                    <h2>Dekstop Parts</h2>
-                                    <ul>
-                                        <li><a href="#">Power Supplies Power</a></li>
-                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                        <li><a href="#">Video Capture & TV Tuner Cards</a></li>
-                                        <li><a href="#">Other</a></li>
-                                    </ul>
+                        </li>
+                        <li class="alt__li">
+                            <a href="#">games & consoles</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>                    
-                </ul>
+                        </li>
+                        <li class="alt__li">
+                            <a href="#">gadgets</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="alt__li">
+                            <a href="#">phones & tablets</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="alt__li">
+                            <a href="#">GPS & car audio</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="alt__li">
+                            <a href="#">Accessories</a>
+                            <div class="banner_alt__content">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Laptops & Notebooks</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound </a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Computers & Laptops</h2>
+                                        <ul>
+                                            <li><a href="#">Computer Cases & Accessories</a></li>
+                                            <li><a href="#">CPUs, Processors </a></li>
+                                            <li><a href="#">Fans, Heatsinks & Cooling</a></li>
+                                            <li><a href="#">Graphics, Video Cards</a></li>
+                                            <li><a href="#">Interface, Add-On Cards</a></li>
+                                            <li><a href="#">Laptop Replacement Parts</a></li>
+                                            <li><a href="#">Memory (RAM)</a></li>
+                                            <li><a href="#">Motherboards</a></li>
+                                            <li><a href="#">Motherboard & CPU Combos</a></li>
+                                            <li><a href="#">Motherboard Components & Accs</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-lg-4 laptop">
+                                        <h2>Dekstop Parts</h2>
+                                        <ul>
+                                            <li><a href="#">Power Supplies Power</a></li>
+                                            <li><a href="#">Power Supply Testers Sound</a></li>
+                                            <li><a href="#">Sound Cards (Internal)</a></li>
+                                            <li><a href="#">Video Capture & TV Tuner Cards</a></li>
+                                            <li><a href="#">Other</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>                    
+                    </ul>
+                </div>
+                
             </div>
         </div>
         <!-- --------------banner-alt menu------------- -->
@@ -674,19 +686,15 @@
 
 
 
-
-
-
-
-
-
-
-
         <!-- ----------------banner-alt (watch $ phone) and (navs & tabs)-------- -->
         <div class="banner_alt__main_content">
             <div class="container">
             <!-- -------------navs & tabs----------------- -->
-            <nav data-aos="fade-up" data-aos-delay="100">
+
+            <!-- data-aos="fade-up" data-aos-delay="100" -->
+
+
+            <nav >
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                   <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Description</button>
                   <button class="nav-link"  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Additional Information</button>
@@ -695,7 +703,12 @@
             </nav>
             <!-- -------------navs & tabs----------------- -->
             <!-- -------------sale content------------ -->
-            <div class="tab-content" id="nav-tabContent" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- data-aos="fade-up" data-aos-delay="200" -->
+
+
+
+            <div class="tab-content" id="nav-tabContent" >
                 <!-- ---------1st content-------------- -->
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="main__description">
@@ -982,10 +995,21 @@
 
     <section id="recent">
         <div class="container">
-            <div class="recent__heading" data-aos="fade-up" data-aos-delay="50">
+
+
+            <!-- data-aos="fade-up" data-aos-delay="50" -->
+
+
+            <div class="recent__heading" >
                 <h2>Recently Viewed</h2>
             </div>
-            <div class="recent__wrapper" data-aos="fade-up" data-aos-delay="150">
+
+
+            <!-- data-aos="fade-up" data-aos-delay="150" -->
+
+
+
+            <div class="recent__wrapper" >
                 <div class="recent__content_slider">
                     <div class="recent__content_main">
                         <img src="images/recent-1.jpg" alt="img">
@@ -1119,10 +1143,19 @@
 
     <section id="brand">
         <div class="container">
-            <div class="brand__heading" data-aos="fade-up" data-aos-delay="50">
+
+            <!-- data-aos="fade-up" data-aos-delay="50" -->
+
+
+
+            <div class="brand__heading" >
                 Top Brands
             </div>
-            <div class="brand__wrapper" data-aos="fade-up" data-aos-delay="150">
+
+            <!-- data-aos="fade-up" data-aos-delay="150" -->
+
+
+            <div class="brand__wrapper" >
                 <div class="brand__slider">
                     <div class="brand__main">
                         <div class="brand__img">
@@ -1168,150 +1201,150 @@
             </div>
         </div>
     </section>
-    
+
     <!-- -------------------------brand end here-------------------- -->
 
 
-    <!-- -------------------------Featured products start here--------------- -->
+     <!-- -------------------------Featured products start here--------------- -->
 
-    <section id="featured">
+     <section id="featured">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 featured__product">
+                <div class="col-12 col-md-6 col-lg-4 featured__product">
                     <div class=" featured__product_heading">
                         <h2>Featured products</h2>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Netbook Acer Travel B113-E-10072. </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-01.jpg" alt="img" class="img-fluid">
                             </a>                            
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-02.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-03.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 featured__product">
+                <div class="col-12 col-md-6 col-lg-4 featured__product">
                     <div class=" featured__product_heading">
                         <h2>On-Sale Products</h2>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">HP Scanner 2910P </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-04.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Galaxy Tab 3 GT-P5210 16GB, Wi-Fi, 10.1in - White</a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-05.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-06.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 featured__product">
+                <div class="col-12 col-md-12 col-lg-4 featured__product">
                     <div class=" featured__product_heading">
                         <h2>Top Rated Products</h2>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Galaxy Tab GT-P5210, 10" 16GB Wi-Fi </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-07.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-08.jpg" alt="img" class="img-fluid">
                             </a>
                         </div>
                     </div>
                     <div class="row  featured__product_main">
-                        <div class="col-lg-9 product__main_detail">
+                        <div class="col-8 col-lg-9 product__main_detail">
                             <a href="#">Surface RT 64GB, Wi-Fi, 10.6in - Dark Titanium </a>
                             <div>
                                 <p>$2000</p>
                                 <h6>$1873</h6>
                             </div>                            
                         </div>
-                        <div class="col-lg-3 product__main_img">
+                        <div class="col-4 col-lg-3 product__main_img">
                             <a href="#">
                                 <img src="images/product-small-09.jpg" alt="img" class="img-fluid">
                             </a>
@@ -1322,7 +1355,6 @@
         </div>
     </section>
 
-
     <!-- -------------------------Featured products end here--------------- -->
 
     <!-- ------------------------footer start here---------------------- -->
@@ -1332,7 +1364,9 @@
             <div class="row footer__wrapper">
                 <div class="col-lg-5 footer__logo_main">
                     <div class="footer__logo">
-                        <img src="images/logo1.png" alt="img" class="img-fluid logo__img">
+                        <a href="../index.html">
+                            <img class="img-fluid logo__img" src="images/logo1.png" alt="img">
+                        </a>
                     </div>
                     <h2>Feel free to contact us via phone,email or just send us mail.</h2>
                     <h3>17 Princess Road, London, Greater London NW1 8JR, UK 1-888-8MEDIA (1-888-892-9953) </h3>
@@ -1397,7 +1431,6 @@
     <!-- ------------------------footer end here---------------------- -->
 
     <!-- ------------------------coppy start here----------------- -->
-
     <section id="coppy">
         <div class="container">
             <div class="coppy__wrapper">
@@ -1415,11 +1448,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
     <!-- ------------------------coppy start here----------------- -->
 
 
