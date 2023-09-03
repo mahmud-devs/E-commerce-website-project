@@ -1018,13 +1018,100 @@ li.dropdown_main:nth-child(6) > ul:nth-child(2){
     }
 
 
+    .main__description span{
+        font-size: 11px;
+    }
+
+    .main__description ul li {
+        gap: 70px;;
+    }
+
+    .main__description ul li label {
+        width: 65px;
+        font-size: 12px;
+    }
+
+    .row .blog__post_main .post__main p {
+        font-size: 14px;
+        padding-top: 20px;
+        color: #777;
+        margin-bottom: 0px;
+    }
+
+
+    .main__description .your__review form {
+        width: 100%;
+    }
 
 
 
+    /* ================wishlist============== */
+
+
+    #wishlist .container .wishlist__content {
+        flex-wrap: wrap;
+    }
 
 
 
+    /* =============terms============== */
 
+    #terms .container .terms__detail h2 {
+        font-size: 25px;
+        line-height: 15px;
+    }
+
+    #terms .container .terms__detail ol {
+        margin-left: 30px;
+    }
+
+    #terms .container .terms__detail ol li::marker {
+        font-size: 13px;
+    }
+    #terms .container .terms__detail ol li {
+        font-size: 13px;
+    }
+
+    #terms .container .terms__detail p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #terms .container .terms__detail h2 {
+        font-size: 22px;
+        line-height: 12px;
+    }
+
+    #terms {
+        padding-bottom: 0px;
+    }
+
+    /* =================track================ */
+
+    #track .container .track__main {
+        padding: 0px 0px 0 0px;
+    }
+
+
+    #track .container .track__main .track__heading h2 {
+        font-size: 32px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+
+    #track .container .track__main .track__heading p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #track {
+        padding-bottom: 20px;
+    }
+
+
+    
 }    
 
 
