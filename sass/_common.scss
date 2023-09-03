@@ -552,7 +552,34 @@ a{
 }
 
 
+// ---------------banner alt menu------------
+.navbar-toggler{
+    padding: 0;
+    border-radius: 5px;
+    border: 3px solid $navy;
+    position: relative;
+    z-index: 99999999999999999999999;
+    outline: none;
+    &:focus{
+        box-shadow: 0 0 0 .20rem #088a22 !important;
+    }
+}
 
+
+
+
+
+
+
+.navbar-toggler-icon{
+    padding: 0;
+    font-size: 26px ;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#088a22;
+}
 
 
 
