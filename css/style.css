@@ -2917,6 +2917,9 @@ a {
 .blue #footer .container .footer__wrapper .footer__logo_main .footer__icon a:hover {
   background-color: #3498db;
 }
+.blue #footer .container .footer__wrapper .footer__find ul li a:hover {
+  color: #3498db;
+}
 .blue #banner_alt .banner_alt__menu {
   background-color: #3498db;
 }
@@ -3089,6 +3092,9 @@ a {
 }
 .red #footer .container .footer__wrapper .footer__logo_main .footer__icon a:hover {
   background-color: #e74c3c;
+}
+.red #footer .container .footer__wrapper .footer__find ul li a:hover {
+  color: #e74c3c;
 }
 .red #banner_alt .banner_alt__menu {
   background-color: #e74c3c;
@@ -3263,6 +3269,9 @@ a {
 .navy #footer .container .footer__wrapper .footer__logo_main .footer__icon a:hover {
   background-color: #34495E;
 }
+.navy .blue #footer .container .footer__wrapper .footer__find ul li a:hover {
+  color: #34495E;
+}
 .navy #banner_alt .banner_alt__menu {
   background-color: #34495E;
 }
@@ -3293,8 +3302,8 @@ a {
 .navy #banner_alt .banner_alt__main_content .container .more__products .products a:hover {
   color: #34495E;
 }
-.navy #banner_alt .banner_alt__main_content .container .more__products .products a:hover span {
-  background-color: #34495E;
+.navy #footer .container .footer__wrapper .footer__find ul li a:hover {
+  color: #34495E;
 }
 .navy .single__product .container .single__product_wrapper .single__product_info .product__info_rating .rating__main span a {
   color: #34495E;

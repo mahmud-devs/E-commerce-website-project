@@ -261,6 +261,14 @@ $redgray: #4F6276;
         background-color: $blue;
     }
 
+
+    #footer .container .footer__wrapper .footer__find ul li a:hover {
+        color: $blue;
+    }
+
+
+
+
     // ---------------------home alt---------------
 
     #banner_alt .banner_alt__menu {
@@ -414,6 +422,18 @@ $redgray: #4F6276;
         color: $blue;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -535,6 +555,13 @@ $redgray: #4F6276;
         background-color: $red;
     }
 
+    
+
+    #footer .container .footer__wrapper .footer__find ul li a:hover {
+        color: $red;
+    }
+
+
     // ---------------------home alt---------------
 
     #banner_alt .banner_alt__menu {
@@ -583,6 +610,8 @@ $redgray: #4F6276;
     #banner_alt .banner_alt__main_content .container .more__products .products a:hover span {
         background-color: $red;
     }
+
+    
 
 
     // ----------------single product-------------
@@ -804,6 +833,13 @@ $redgray: #4F6276;
         background-color: $navy;
     }
 
+    .blue #footer .container .footer__wrapper .footer__find ul li a:hover {
+        color: $navy;
+    }
+
+
+
+
     // ---------------------home alt---------------
 
     #banner_alt .banner_alt__menu {
@@ -849,8 +885,8 @@ $redgray: #4F6276;
         color: $navy;
     }
 
-    #banner_alt .banner_alt__main_content .container .more__products .products a:hover span {
-        background-color: $navy;
+    #footer .container .footer__wrapper .footer__find ul li a:hover {
+        color: $navy;
     }
 
 
