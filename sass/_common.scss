@@ -566,11 +566,6 @@ a{
 }
 
 
-
-
-
-
-
 .navbar-toggler-icon{
     padding: 0;
     font-size: 26px ;
@@ -581,6 +576,23 @@ a{
     background-color:#088a22;
 }
 
+// ---------------bottom to top--------------
 
-
-
+.bottom_to_top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: $green;
+    color: $white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 999999999999999999999999999;
+    &:hover{
+        cursor: pointer;
+    }
+}
