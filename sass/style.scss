@@ -1,18 +1,18 @@
-@import "./common";
-@import "./variable";
-@import "./banner-alt";
-@import "./_about";
-@import "./faq";
-@import "./terms";
-@import "./404";
-@import "./wishlist";
-@import "./contact";
-@import "./register";
-@import "./track";
-@import "./cart";
-@import "./checkout";
-@import "./blog";
-@import "./single-product";
+@import "./section/common";
+@import ".//section/variable";
+@import "./section/banner-alt";
+@import "./section/about";
+@import "./section/faq";
+@import "./section/terms";
+@import "./section/404";
+@import "./section/wishlist";
+@import "./section/contact";
+@import "./section/register";
+@import "./section/track";
+@import "./section/cart";
+@import "./section/checkout";
+@import "./section/blog";
+@import "./section/single-product";
 @import "./section/color-switcher";
 
 
