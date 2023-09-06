@@ -16,7 +16,7 @@ $(function(){
    $('#blue').click(blue);    
    $('#red').click(red);
    $('#navy').click(navy);
-   $('#purple').click(purple);
+   $('#orange').click(orange);
 
 
    function green() {
@@ -31,8 +31,8 @@ $(function(){
    function navy() {
    $('body').attr('class', 'navy');
    }
-   function purple() {
-   $('body').attr('class', 'purple');
+   function orange() {
+   $('body').attr('class', 'orange');
    }
 
 
@@ -55,6 +55,11 @@ $(function(){
         $(".logo__img").attr("src" , "images/logo4.png")
     
     })
+    // --------------orange-----------
+   $("#").click(function(){
+        $(".logo__img").attr("src" , "images/logo5.png")
+    
+    })
 
 
     
@@ -72,7 +77,7 @@ $(function(){
     $('#blue1').click(blue1);    
     $('#red1').click(red1);
     $('#navy1').click(navy1);
-    $('#purple1').click(purple1);
+    $('#orange1').click(orange1);
  
  
     function green1() {
@@ -87,8 +92,8 @@ $(function(){
     function navy1() {
     $('body').attr('class', 'navy');
     }
-    function purple1() {
-    $('body').attr('class', 'purple');
+    function orange1() {
+    $('body').attr('class', 'orange');
     }
  
  
@@ -109,6 +114,11 @@ $(function(){
      // --------------navy-----------
     $("#navy1").click(function(){
          $(".logo__img").attr("src" , "images/logo4.png")
+     
+     })
+     // --------------orange-----------
+    $("#orange1").click(function(){
+         $(".logo__img").attr("src" , "images/logo5.png")
      
      })
  
