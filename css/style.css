@@ -3834,6 +3834,10 @@ a {
   cursor: pointer;
 }
 
+.navbar {
+  padding: 0;
+}
+
 #header {
   padding: 40px 0 31px 0;
   border-bottom: 1px solid #e0e0e0;
