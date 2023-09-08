@@ -72,6 +72,13 @@ $redgray: #4F6276;
 }
 
 
+.recent__content_detail a {
+	transition: all linear 0.2s ;
+    &:hover{
+        color: $green !important;
+    }
+}
+
 // ------------color btn---------
 
 #green{
@@ -169,6 +176,12 @@ $redgray: #4F6276;
 
 .blue{
 
+    .recent__content_detail a {
+        transition: all linear 0.2s ;
+        &:hover{
+            color: $blue !important;
+        }
+    }
 
         // --------bottom to top---------
 
@@ -504,6 +517,14 @@ $redgray: #4F6276;
 
 .red{
 
+    .recent__content_detail a {
+        transition: all linear 0.2s ;
+        &:hover{
+            color: $red !important;
+        }
+    }
+
+
     // --------bottom to top---------
 
     .bottom_to_top{
@@ -816,6 +837,13 @@ $redgray: #4F6276;
 
 .navy{
 
+
+    .recent__content_detail a {
+        transition: all linear 0.2s ;
+        &:hover{
+            color: $navy !important;
+        }
+    }
 
         // --------bottom to top---------
 
@@ -1136,6 +1164,12 @@ $redgray: #4F6276;
 
 .orange{
 
+    .recent__content_detail a {
+        transition: all linear 0.2s ;
+        &:hover{
+            color: $orange !important;
+        }
+    }
 
     // --------bottom to top---------
 
