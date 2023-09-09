@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css">
     <!-- -------------bootstrap css---------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ----------------wow css----------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- ----------------animate css----------------- -->
+    <link rel="stylesheet" href="../css/animate.css">
     <!-- --------main css---------------- -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- --------------responsive css--------------------- -->
@@ -242,7 +246,7 @@
             </div>
             <!-- --------banner menu & slider---------- -->
             <!-- ----------banner mobile & watch------------ -->
-            <div class="row">
+            <div class="row wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
                 <div class="col-12 col-md-6 col-lg-6 mobile">
                     <a href="#" class="banner__mobile">
                         <h2>new life</h2>
@@ -264,11 +268,11 @@
             <!-- data-aos="fade-up" data-aos-delay="100" -->
 
 
-            <nav >
+            <nav class="wow fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-                  <button class="nav-link"  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Featured</button>
+                  <button class="nav-link"  id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">New Arrivals</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Top Sales</button>
                 </div>
             </nav>
             <!-- -------------navs & tabs----------------- -->
@@ -278,7 +282,7 @@
 
 
 
-            <div class="tab-content" id="nav-tabContent" >
+            <div class="tab-content wow fadeInUp" id="nav-tabContent" data-wow-duration="2s" data-wow-delay="0.5s">
                 <!-- ---------1st content-------------- -->
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="row">
@@ -630,7 +634,7 @@
 
     <!-- ---------------------best seller start here--------- -->
 
-    <section id="seller">
+    <section id="seller" class="wow fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
         <div class="container">
 
             <!-- data-aos="fade-up" data-aos-delay="50" -->
@@ -799,7 +803,7 @@
 
     <!-- -------------------recently part start here--------------- -->
 
-    <section id="recent">
+    <section id="recent" class="wow fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
         <div class="container">
 
             <!-- data-aos="fade-up" data-aos-delay="50" -->
@@ -945,7 +949,7 @@
 
     <!-- -------------------------brand start here-------------------- -->
 
-    <section id="brand">
+    <section id="brand" class="wow fadeInUp"  data-wow-duration="2s" data-wow-delay="0.5s">
         <div class="container">
 
             <!-- data-aos="fade-up" data-aos-delay="50" -->
@@ -1345,6 +1349,11 @@
     </script>
     <!-- -------------bootstrap js---------- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- ---------------wow js------------------ -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <!-- ----------main js--------------- -->
     <script src="../js/script.js"></script>
     <!-- ---------color------------- -->
