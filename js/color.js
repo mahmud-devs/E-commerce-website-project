@@ -56,7 +56,7 @@ $(function(){
     
     })
     // --------------orange-----------
-   $("#").click(function(){
+   $("#orange").click(function(){
         $(".logo__img").attr("src" , "images/logo5.png")
     
     })
